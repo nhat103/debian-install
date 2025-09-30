@@ -1,0 +1,23 @@
+<svg width="22" height="22" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<style id="current-color-scheme" type="text/css">.ColorScheme-Text { color:#444444; } .ColorScheme-Highlight { color:#4285f4; }</style>
+</defs>
+<g fill="currentColor">
+<rect class="ColorScheme-Text" x="3" y="17" width="7" height="2" rx=".538" ry=".5"/>
+<rect class="ColorScheme-Text" x="3" y="15" width="7" height="2" rx=".538" ry=".5" opacity=".3"/>
+<rect class="ColorScheme-Text" x="3" y="13" width="7" height="2" rx=".538" ry=".5"/>
+<rect class="ColorScheme-Text" x="3" y="11" width="7" height="2" rx=".538" ry=".5" opacity=".3"/>
+<rect class="ColorScheme-Text" x="3" y="9" width="7" height="2" rx=".538" ry=".5"/>
+<rect class="ColorScheme-Text" x="3" y="7" width="7" height="2" rx=".538" ry=".5" opacity=".3"/>
+<rect class="ColorScheme-Text" x="3" y="5" width="7" height="2" rx=".538" ry=".5"/>
+<rect class="ColorScheme-Text" x="3" y="3" width="7" height="2" rx=".538" ry=".5" opacity=".3"/>
+<rect class="ColorScheme-Text" x="12" y="17" width="7" height="2" rx=".538" ry=".5" opacity=".3"/>
+<rect class="ColorScheme-Text" x="12" y="15" width="7" height="2" rx=".538" ry=".5"/>
+<rect class="ColorScheme-Text" x="12" y="13" width="7" height="2" rx=".538" ry=".5" opacity=".3"/>
+<rect class="ColorScheme-Text" x="12" y="11" width="7" height="2" rx=".538" ry=".5"/>
+</g>
+<g transform="translate(-11)" fill="#444" fill-rule="evenodd" stroke-width=".4629">
+<path d="m24.25 5.0999c-6e-3 -0.00477 0.23611 3.4302 0.23617 3.4313 0.02269 0.34303 0.21314 0.46831 0.42638 0.46882 0.0076 1.71e-5 3.9999-5.572e-4 4.0853-9.286e-4 0.35908-0.00149 0.44692-0.21936 0.47053-0.45793 0.0019-0.0047 0.2433-3.4369 0.24519-3.4412z"/>
+<path d="m29.195 3.4287c-0.01795 6.314e-4 -4.422 0.00834-4.4395 0.00837-0.14222 2.985e-4 -0.26148 0.00376-0.32632 0.12812-0.01127 0.021614-0.35486 0.89855-0.37139 0.93203-0.14138 0.2864-0.01076 0.64724 0.26232 0.64478 0.05193-4.416e-4 5.3805 0.00223 5.4636 0 0.23246-0.00618 0.26232-0.42418 0.16226-0.61214-0.0057-0.010643-0.47044-0.97687-0.48225-0.994-0.05478-0.076452-0.17749-0.11033-0.26862-0.10719zm-0.16391 0.56845c0.08482 9.518e-4 0.07674-0.011158 0.1253 0.0564 0.01049 0.015156 0.3068 0.49849 0.31635 0.52876 0.0235 0.074572-0.0078 0.098937-0.11178 0.098937-0.07338 0-4.622-7.568e-4 -4.6677 0-0.12992 0.00214-0.18347-0.018242-0.14603-0.12322 0.011-0.030874 0.23298-0.47435 0.23298-0.47435 0.03019-0.087529 0.03893-0.088142 0.17307-0.08654 1.4251 1.32e-5 2.6533-1.004e-4 4.0778 1.29e-5z"/>
+</g>
+</svg>

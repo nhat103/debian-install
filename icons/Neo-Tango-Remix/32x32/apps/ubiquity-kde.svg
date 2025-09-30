@@ -1,0 +1,30 @@
+<svg width="32" height="32" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="linearGradient7676" x1="64.571" x2="72.857" y1="9.7143" y2="40.857" gradientTransform="matrix(.85961 0 0 .78416 -44.176 -3.0385)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#dfdfdf" offset="0"/>
+<stop stop-color="#c0c0c0" offset="1"/>
+</linearGradient>
+<filter id="filter925" color-interpolation-filters="sRGB">
+<feFlood flood-color="rgb(0,0,0)" flood-opacity=".2" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="1" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="fbSourceGraphic"/>
+<feColorMatrix in="fbSourceGraphic" result="fbSourceGraphicAlpha" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+<feFlood flood-color="rgb(255,255,255)" flood-opacity=".10196" in="fbSourceGraphic" result="flood"/>
+<feComposite in="flood" in2="fbSourceGraphic" operator="out" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="1" result="offset"/>
+<feComposite in="offset" in2="fbSourceGraphic" operator="atop" result="composite2"/>
+</filter>
+</defs>
+<g filter="url(#filter925)">
+<path d="m2.4183 4.8377 4.2483-4.8377h18.666l4.3343 4.8377z" color="#000000" fill="#6b6c69" fill-rule="evenodd" stroke-width="2.0795"/>
+<rect x="2" y="4.5789" width="27.999" height="24.421" rx="1.2177" ry="1.1202" color="#000000" fill="url(#linearGradient7676)" fill-rule="evenodd" stroke-width="1.9382"/>
+<path d="m9.5043 4.6724v22.895" color="#000000" fill="none" stroke-width="1.9533"/>
+<path d="m29.999 13.737v14.506c0 0.41929-0.316 0.75684-0.70854 0.75684h-19.291l0.04298-15.263h19.957z" color="#000000" fill="#a40000" fill-rule="evenodd" stroke-width="1.9535"/>
+<path d="m29.999 13.737v-8.5037c0-0.36239-0.31338-0.65412-0.70263-0.65412h-19.297v9.1579z" color="#000000" fill="#f0f0f0" fill-rule="evenodd" stroke-width="1.9034"/>
+<path d="m6.2083 0.78178h19.41l3.6286 3.4808v23.247c0 0.2353-0.19746 0.42474-0.44275 0.42474h-25.61c-0.24529 0-0.44275-0.18943-0.44275-0.42474v-23.247l3.4564-3.4808z" color="#000000" fill="none" opacity=".62567" stroke-width="1.9533"/>
+<path d="m20 11c-5.5428 0-10 4.4572-10 10s4.4572 10 10 10 10-4.4572 10-10-4.4572-10-10-10zm0 8c1.0952 0 2 0.90475 2 2 0 1.0952-0.90475 2-2 2s-2-0.90475-2-2c0-1.0952 0.90475-2 2-2z" fill="#dfdfdf" stroke-width="2"/>
+</g>
+</svg>

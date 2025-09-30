@@ -1,0 +1,53 @@
+<svg width="64" height="64" version="1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<filter id="filter933" color-interpolation-filters="sRGB">
+<feFlood flood-color="rgb(0,0,0)" flood-opacity=".2" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="1" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="fbSourceGraphic"/>
+<feColorMatrix in="fbSourceGraphic" result="fbSourceGraphicAlpha" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+<feFlood flood-color="rgb(255,255,255)" flood-opacity=".10196" in="fbSourceGraphic" result="flood"/>
+<feComposite in="flood" in2="fbSourceGraphic" operator="out" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="1" result="offset"/>
+<feComposite in="offset" in2="fbSourceGraphic" operator="atop" result="composite2"/>
+</filter>
+<filter id="filter945" color-interpolation-filters="sRGB">
+<feFlood flood-color="rgb(0,0,0)" flood-opacity=".2" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="1" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+</filter>
+<filter id="filter986" color-interpolation-filters="sRGB">
+<feFlood flood-color="rgb(0,0,0)" flood-opacity=".2" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="1" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+</filter>
+</defs>
+<path id="path4291" d="m10.009 6.1056v48.862c0.08516 1.2708 1.2204 2.5439 2.9123 2.4169h38.921c1.0919-0.05214 2.1723-0.95131 2.1563-2.7323v-44.687c0-0.86701-0.28257-1.4495-0.92409-2.0735l-3.3589-3.4311c-0.35103-0.32837-0.56692-0.45875-1.539-0.45875h-36.659c-1.1456 0.074304-1.5858 1.21-1.5094 2.1015z" color="#000000" fill="#555753" fill-rule="evenodd" filter="url(#filter933)" stroke-width="2.7245"/>
+<rect x="16.001" y="8.0026" width="31.999" height="19.999" rx="2.1703" ry="2.2321" color="#000000" fill="#edd400" fill-rule="evenodd" filter="url(#filter945)" stroke-width="2.7601"/>
+<rect transform="matrix(1 0 -.0059706 .99998 0 0)" x="16.228" y="9.6357" width="31.769" height="16.985" rx="1.4005" ry="1.2977" color="#000000" fill="none" opacity=".44944" stroke-width="2.7499"/>
+<g fill-rule="evenodd">
+<rect x="12.001" y="44.001" width="39.999" height="14" rx="1.0544" ry="1.04" color="#000000" fill="#2e3436" filter="url(#filter986)" stroke-width="2.8481"/>
+<rect x="14.001" y="46.047" width="35.999" height="9.9543" rx=".16098" ry=".14343" color="#000000" fill="#eeeeec" stroke-width="2.6255"/>
+<rect x="14.001" y="46.001" width="35.999" height="3.9999" rx=".16098" ry=".1729" color="#000000" fill="#8f5902" stroke-width="2.7453"/>
+<rect x="16.001" y="48.001" width="9.9997" height="1.9999" rx=".1292" ry=".12967" color="#000000" fill="#e9b96e" stroke-width="2.2359"/>
+<rect x="32.001" y="48.001" width="6.0004" height="1.9999" rx=".19277" ry=".12967" color="#000000" fill="#e9b96e" stroke-width="2.4495"/>
+</g>
+<path d="m12.762 5.7534v48.884a2.7513 2.7513 0 0 1 0.16111-0.0054h38.785c-0.35103 0.017-0.45027 0.70578-0.45653-0.0054a2.7513 2.7513 0 0 1 0-0.02694v-45.525c0-0.29721 0.20931 0.16352-0.1128-0.15576a2.7513 2.7513 0 0 1-0.04298-0.048336l-3.0023-3.1205z" color="#000000" fill="none" opacity=".17978" stroke-width="2.7499" xlink:href="#path4291"/>
+<g transform="matrix(1.9999 0 0 1.9999 .0015255 .00283)" fill="#fff" fill-rule="evenodd">
+<path d="m12 4.0003v3h2v-3z" color="#000000" opacity=".44944" stroke-width="1.7321"/>
+<path d="m15 4v4h2v-4z" color="#000000" opacity=".44944" stroke-width="1.633"/>
+<path d="m18 5v4h2v-4z" color="#000000" opacity=".44944" stroke-width="1.633"/>
+<path d="m21 4v5h2v-5z" color="#000000" opacity=".44944" stroke-width="1.5811"/>
+<path d="m9 4v10h2v-10z" color="#000000" opacity=".44944" stroke-width="1.6903"/>
+<path d="m12 9v5h2v-5z" color="#000000" opacity=".44944" stroke-width="1.5811"/>
+<path d="m15 10v4h2v-4z" color="#000000" opacity=".44944" stroke-width="1.633"/>
+<path d="m18 11v3h2v-3z" color="#000000" opacity=".44944" stroke-width="1.4142"/>
+<path d="m21 11v3h2v-3z" color="#000000" opacity=".44944" stroke-width="1.7321"/>
+</g>
+</svg>

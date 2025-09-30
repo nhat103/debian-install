@@ -1,0 +1,59 @@
+<svg width="22" height="22" version="1" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<filter id="filter1236" color-interpolation-filters="sRGB">
+<feFlood flood-color="rgb(0,0,0)" flood-opacity=".2" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="0.5" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="fbSourceGraphic"/>
+<feColorMatrix in="fbSourceGraphic" result="fbSourceGraphicAlpha" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+<feFlood flood-color="rgb(255,255,255)" flood-opacity=".10196" in="fbSourceGraphic" result="flood"/>
+<feComposite in="flood" in2="fbSourceGraphic" operator="out" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="0.5" result="offset"/>
+<feComposite in="offset" in2="fbSourceGraphic" operator="atop" result="composite2"/>
+</filter>
+</defs>
+<g filter="url(#filter1236)">
+<g transform="matrix(0 -.11796 .2301 0 4.0278 20.891)" fill="#acacac">
+<rect x="36.378" y="30.647" width="36.543" height="4" color="#000000" display="block"/>
+<rect x="36.378" y="33.649" width="36.543" height=".98959" color="#000000" display="block"/>
+<rect x="36.378" y="30.301" width="36.543" height="1.0227" color="#000000" display="block"/>
+<rect x="36.378" y="31.425" width="36.543" height="1.6187" color="#000000" display="block"/>
+</g>
+<g fill-rule="evenodd">
+<rect x="9.9923" y="11.007" width="9" height="2" rx=".6291" ry=".6291" color="#000000" fill="#d4d4d4" stroke-width=".5"/>
+<rect x="10" y="3" width="9" height="8" rx="1.2857" ry="1.2184" color="#000000" fill="#d4d4d4" stroke-width=".48673"/>
+<rect x="10.992" y="3.9692" width="7" height="5.2894" rx=".28572" ry=".27477" color="#000000" fill="#204a87" stroke-width=".49033"/>
+</g>
+<g transform="matrix(1 0 0 .70953 0 4.5425)" fill="#acacac">
+<g transform="matrix(.088621 0 0 .32308 7.8697 6.3636)">
+<rect x="36.378" y="30.647" width="36.543" height="4" color="#000000" display="block"/>
+<rect x="36.378" y="33.649" width="36.543" height=".98959" color="#000000" display="block"/>
+<rect x="36.378" y="30.301" width="36.543" height="1.0227" color="#000000" display="block"/>
+</g>
+<g transform="matrix(.097223 0 0 .32308 3.99 6.3583)">
+<rect x="36.378" y="30.647" width="36.543" height="4" color="#000000" display="block"/>
+<rect x="36.378" y="33.649" width="36.543" height=".98959" color="#000000" display="block"/>
+<rect x="36.378" y="30.301" width="36.543" height="1.0227" color="#000000" display="block"/>
+<rect x="36.378" y="31.425" width="36.543" height="1.6187" color="#000000" display="block"/>
+</g>
+</g>
+<g fill-rule="evenodd">
+<path d="m0 7.5211v11.479h8v-11.548l-1.4719-1.4522h-5.1301z" fill="#d4d4d4" stroke-width=".35271"/>
+<rect x="1.129" y="8.129" width="5.742" height=".74199" color="#000000" fill="#acacac" stroke="#acacac" stroke-width=".25801"/>
+<g transform="matrix(.22143 0 0 .22323 -2.2173 6.7217)" fill="#acacac" stroke="#acacac">
+<circle transform="matrix(.77981 0 0 .77353 -34.69 5.5951)" cx="66.013" cy="26.231" r="2.1718" color="#000000" stroke-width="1.4477"/>
+<circle transform="matrix(1.0086 0 0 1.0005 -.073964 -.054996)" cx="16.162" cy="25.575" r=".50508" color="#000000"/>
+</g>
+<circle cx="11.5" cy="16.5" r=".5" color="#000000" fill="#eaeaea" stroke-width=".25"/>
+<rect x="1.129" y="10.129" width="5.742" height=".74199" color="#000000" fill="#acacac" stroke="#acacac" stroke-width=".25801"/>
+<rect x="3.1077" y="12.108" width="3.7846" height=".7846" color="#000000" fill="#acacac" stroke="#acacac" stroke-width=".2154"/>
+</g>
+<g transform="translate(3.0077 3.9927)" fill-rule="evenodd">
+<rect x="9.9923" y="11.007" width="9" height="2" rx=".6291" ry=".6291" color="#000000" fill="#d4d4d4" stroke-width=".5"/>
+<rect x="10" y="3" width="9" height="8" rx="1.2857" ry="1.2184" color="#000000" fill="#d4d4d4" stroke-width=".48673"/>
+<rect x="10.992" y="3.9692" width="7" height="5.2894" rx=".28572" ry=".27477" color="#000000" fill="#204a87" stroke-width=".49033"/>
+</g>
+</g>
+</svg>

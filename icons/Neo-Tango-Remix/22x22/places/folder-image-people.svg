@@ -1,0 +1,35 @@
+<svg width="22" height="22" version="1" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<filter id="filter1013" color-interpolation-filters="sRGB">
+<feFlood flood-color="rgb(0,0,0)" flood-opacity=".2" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="0.5" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="fbSourceGraphic"/>
+<feColorMatrix in="fbSourceGraphic" result="fbSourceGraphicAlpha" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+<feFlood flood-color="rgb(255,255,255)" flood-opacity=".10196" in="fbSourceGraphic" result="flood"/>
+<feComposite in="flood" in2="fbSourceGraphic" operator="out" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="0.5" result="offset"/>
+<feComposite in="offset" in2="fbSourceGraphic" operator="atop" result="composite2"/>
+</filter>
+<filter id="filter1037" color-interpolation-filters="sRGB">
+<feFlood flood-color="rgb(255,255,255)" flood-opacity=".10196" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="out" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="0.5" result="offset"/>
+<feComposite in="offset" in2="SourceGraphic" operator="atop" result="fbSourceGraphic"/>
+<feColorMatrix in="fbSourceGraphic" result="fbSourceGraphicAlpha" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+<feFlood flood-color="rgb(0,0,0)" flood-opacity=".2" in="fbSourceGraphic" result="flood"/>
+<feComposite in="flood" in2="fbSourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="0.5" result="offset"/>
+<feComposite in="fbSourceGraphic" in2="offset" result="composite2"/>
+</filter>
+</defs>
+<g stroke-linejoin="round">
+<path d="m2.6848 18.035c-0.21459-0.01106-0.42918-0.23335-0.42918-0.44458v-15.895c0-0.21123 0.21459-0.4114 0.42918-0.40034l13.63 0.47514c0.21459 0.01106 0.42918 0.23335 0.42918 0.44457v6.7338c0 0.24611 0.16268 0.62636 0.5704 0.71116l1.8953 0.31021c0.37921 0.078886 0.53495 0.44762 0.53495 0.65889v7.4984c0 0.21123-0.21459 0.4114-0.42918 0.40034z" fill="#b9b9b9" filter="url(#filter1037)" stroke="#b9b9b9" stroke-linecap="round" stroke-width=".51062"/>
+<path d="m2.2581 18.915c0.022878 0.5757 0.56917 0.988 1.205 1.0302 5.9958 0.3985 11.023 0.83511 11.023 0.83511 0.12848 0.0363 0.25698-0.0845 0.25698-0.24165v-17.298l-11.353-0.93118c-0.50986-0.05765-0.93698-0.23453-1.1338-0.78z" color="#000000" display="block" fill="#6194cb" filter="url(#filter1013)" stroke="#6194cb" stroke-width=".51349"/>
+<path d="m7.3321 7.3782a1.5369 1.3248 47.125 0 0-1.4269 1.2148 1.5369 1.3248 47.125 0 0 1.4269 1.639 1.5369 1.3248 47.125 0 0 0.65266-0.0611 1.6746 1.4427 46.019 0 0 0.10337 0.47243 1.5369 1.3248 47.125 0 1-0.75605 0.10755 1.5369 1.3248 47.125 0 1-1.0783-0.65586c-1.1382 0.56047-1.28 1.5154-1.0089 2.1308 0.28158 0.63923 0.75844 0.81556 1.3271 0.90009l0.63595 0.09452c0.012114 0.16334 0.050972 0.31852 0.11249 0.45607 0.28137 0.62894 0.75787 0.80384 1.3261 0.88829l1.8942 0.28153c0.53666 0.07977 1.068-0.02843 1.2628-0.53339 0.17914-0.46448 0.03792-1.4065-1.061-2.3371a1.6746 1.4427 46.019 0 1-0.95011 0.40251c-0.0091443-0.15817-0.042988-0.33336-0.10996-0.52156a1.6746 1.4427 46.019 0 0 1.4158-1.3315 1.6746 1.4427 46.019 0 0-1.5587-1.7813 1.6746 1.4427 46.019 0 0-0.79253 0.099594 1.5369 1.3248 47.125 0 0-1.4148-1.4655z" color="#000000" fill="#fff" fill-rule="evenodd" opacity=".75" stroke="#fff" stroke-linecap="round" stroke-width=".25944px"/>
+</g>
+</svg>

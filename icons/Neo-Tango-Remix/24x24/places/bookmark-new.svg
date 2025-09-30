@@ -1,0 +1,52 @@
+<svg width="24" height="24" version="1" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<filter id="filter1215" color-interpolation-filters="sRGB">
+<feFlood flood-color="rgb(0,0,0)" flood-opacity=".2" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="0.5" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="fbSourceGraphic"/>
+<feColorMatrix in="fbSourceGraphic" result="fbSourceGraphicAlpha" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+<feFlood flood-color="rgb(255,255,255)" flood-opacity=".10196" in="fbSourceGraphic" result="flood"/>
+<feComposite in="flood" in2="fbSourceGraphic" operator="out" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="0.5" result="offset"/>
+<feComposite in="offset" in2="fbSourceGraphic" operator="atop" result="composite2"/>
+</filter>
+<filter id="filter1227" color-interpolation-filters="sRGB">
+<feFlood flood-color="rgb(255,255,255)" flood-opacity=".10196" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="out" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="0.5" result="offset"/>
+<feComposite in="offset" in2="SourceGraphic" operator="atop" result="composite2"/>
+</filter>
+<filter id="filter1251" color-interpolation-filters="sRGB">
+<feFlood flood-color="rgb(255,255,255)" flood-opacity=".10196" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="out" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="0.5" result="offset"/>
+<feComposite in="offset" in2="SourceGraphic" operator="atop" result="composite2"/>
+</filter>
+</defs>
+<rect x="4.2379" y="2.2316" width="15.545" height="19.045" rx=".51217" ry=".53291" color="#000000" display="block" fill="#d3d7cf" fill-opacity=".99587" filter="url(#filter1215)" stroke="#d3d7cf" stroke-linecap="round" stroke-linejoin="round" stroke-opacity=".99608" stroke-width=".45469"/>
+<g fill="#9b9b9b" fill-opacity=".54971">
+<g stroke-width=".47434">
+<rect x="8.0106" y="5.0043" width="9" height=".5" rx=".062005" ry=".032695" color="#000000" display="block"/>
+<rect x="8.0106" y="6.0043" width="9" height=".5" rx=".062005" ry=".032695" color="#000000" display="block"/>
+<rect x="8.0106" y="7.0043" width="9" height=".5" rx=".062005" ry=".032695" color="#000000" display="block"/>
+<rect x="8.0106" y="8.0043" width="9" height=".5" rx=".062005" ry=".032695" color="#000000" display="block"/>
+<rect x="8.0106" y="9.0043" width="9" height=".5" rx=".062005" ry=".032695" color="#000000" display="block"/>
+<rect x="8.0106" y="10.004" width="9" height=".5" rx=".062005" ry=".032695" color="#000000" display="block"/>
+<rect x="8.0106" y="11.004" width="9" height=".5" rx=".062005" ry=".032695" color="#000000" display="block"/>
+<rect x="8.0106" y="12.004" width="9" height=".5" rx=".062005" ry=".032695" color="#000000" display="block"/>
+<rect x="8.0106" y="13.004" width="4.05" height=".5" rx=".027902" ry=".032695" color="#000000" display="block"/>
+<rect x="8.0106" y="14.504" width="9" height=".5" rx=".062005" ry=".032695" color="#000000" display="block"/>
+<rect x="8.0106" y="15.504" width="9" height=".5" rx=".062005" ry=".032695" color="#000000" display="block"/>
+<rect x="8.0106" y="16.504" width="9" height=".5" rx=".062005" ry=".032695" color="#000000" display="block"/>
+<rect x="8.0106" y="17.504" width="9" height=".5" rx=".062005" ry=".032695" color="#000000" display="block"/>
+</g>
+<rect x="8.0106" y="18.504" width="6" height=".5" rx=".041335" ry=".032695" color="#000000" display="block" stroke-width=".46291"/>
+</g>
+<path d="m6.2444 2.7962s-0.087101-1.5139 1.2465-1.5429l4.6101-0.016471c0.53844 0 0.68008 0.31794 0.68008 0.74509v12.844l-2.807-2.4162-2.7301 2.4162 0.00663-12.029z" fill="#547299" fill-rule="evenodd" filter="url(#filter1227)" stroke="#547299" stroke-width=".46501"/>
+<circle cx="18.511" cy="3.5043" r="2.5" color="#000000" display="block" fill="#fce94f" filter="url(#filter1251)" stroke-width=".41666"/>
+</svg>

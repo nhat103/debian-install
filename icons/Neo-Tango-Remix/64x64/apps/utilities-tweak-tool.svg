@@ -1,0 +1,28 @@
+<svg width="64" height="64" version="1" xmlns="http://www.w3.org/2000/svg">
+<rect x="8" y="21.5" width="48" height="34.5" rx="1.2869" ry="1.2411" color="#000000" fill="#d3d7cf" fill-opacity=".99608" fill-rule="evenodd" stroke-width="3.9156"/>
+<rect x="7.933" y="21.44" width="46.868" height="33.736" rx="0" ry="0" color="#000000" fill="none" stroke-width="3.9764"/>
+<rect x="15.82" y="36.602" width="6.413" height="4.7004" color="#000000" fill="none" stroke-width="3.9764"/>
+<path d="m8 24-5.3088-14h58.654l-5.3442 14z" color="#000000" fill="#a5a5a5" stroke-width="3.7416"/>
+<rect y="10" width="64" height="4" color="#000000" fill="#ddd" stroke-width="4"/>
+<rect x="30" y="34" width="4" height="12" color="#000000" fill="#677579" stroke-width="4"/>
+<rect x="44" y="33.876" width="4" height="12.125" color="#000000" fill="#677579" stroke-width="4.0208"/>
+<rect x="12" y="34" width="12" height="6" color="#000000" fill="#eeeeec" stroke-width="4.2428"/>
+<rect x="16" y="40" width="4" height="11.999" color="#000000" fill="#677579" stroke-width="3.9998"/>
+<rect x="26" y="46" width="12" height="6" color="#000000" fill="#eeeeec" stroke-width="4.2428"/>
+<rect x="40" y="46" width="12" height="6" color="#000000" fill="#eeeeec" stroke-width="4.2428"/>
+<rect x="12" y="18" width="8" height="4" rx="1.4382" ry="2" color="#000000" fill="#ddd" stroke-width="3.9998"/>
+<rect x="44" y="18" width="8" height="4" rx="1.4382" ry="2" color="#000000" fill="#ddd" stroke-width="3.9998"/>
+<g fill-opacity=".2">
+<path d="m0 14v1h64v-1z" color="#000000" stroke-width="4"/>
+<path d="m12.051 20.5c-0.029705 0.1606-0.050781 0.32615-0.050781 0.5 0 1.108 0.64075 2 1.4375 2h5.125c0.79675 0 1.4375-0.892 1.4375-2 0-0.17385-0.021076-0.3394-0.050781-0.5-0.15961 0.86297-0.71498 1.5-1.3867 1.5h-5.125c-0.67174 0-1.2271-0.63703-1.3867-1.5z" color="#000000" stroke-width="3.9998"/>
+<path d="m44.051 20.5c-0.029705 0.1606-0.050781 0.32615-0.050781 0.5 0 1.108 0.64075 2 1.4375 2h5.125c0.79675 0 1.4375-0.892 1.4375-2 0-0.17385-0.021076-0.3394-0.050781-0.5-0.15961 0.86297-0.71498 1.5-1.3867 1.5h-5.125c-0.67174 0-1.2271-0.63703-1.3867-1.5z" color="#000000" stroke-width="3.9998"/>
+<g stroke-width="4.2428">
+<path d="m12 40v1h12v-1z" color="#000000"/>
+<path d="m26 52v1h12v-1z" color="#000000"/>
+<path d="m40 52v1h12v-1z" color="#000000"/>
+</g>
+<path d="m16 52v1h4v-1z" color="#000000" stroke-width="2.4496"/>
+<path d="m8 54.76v1c0 0.68757 0.57417 1.2402 1.2871 1.2402h45.426c0.71294 0 1.2871-0.55266 1.2871-1.2402v-1c0 0.68757-0.57417 1.2402-1.2871 1.2402h-45.426c-0.71294 0-1.2871-0.55266-1.2871-1.2402z" color="#000000" fill-rule="evenodd" stroke-width="3.9156"/>
+</g>
+<path d="m0 10v1h64v-1z" color="#000000" fill="#fff" fill-opacity=".1" stroke-width="4"/>
+</svg>

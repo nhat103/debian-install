@@ -1,0 +1,45 @@
+<svg width="24" height="24" version="1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<filter id="filter1075" color-interpolation-filters="sRGB">
+<feFlood flood-color="rgb(0,0,0)" flood-opacity=".2" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="0.5" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="fbSourceGraphic"/>
+<feColorMatrix in="fbSourceGraphic" result="fbSourceGraphicAlpha" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+<feFlood flood-color="rgb(255,255,255)" flood-opacity=".10196" in="fbSourceGraphic" result="flood"/>
+<feComposite in="flood" in2="fbSourceGraphic" operator="out" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="0.5" result="offset"/>
+<feComposite in="offset" in2="fbSourceGraphic" operator="atop" result="composite2"/>
+</filter>
+<linearGradient id="linearGradient6208" x1="21.617" x2="26.444" y1="4.6076" y2="47.007" gradientTransform="matrix(.44436 0 0 .44043 21.559 .29588)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#555753" offset="0"/>
+<stop stop-color="#3e3f3c" offset="1"/>
+</linearGradient>
+</defs>
+<g transform="translate(-20 1.0002)" filter="url(#filter1075)">
+<path id="path4291" d="m24.003 1.7786v18.102c0.03097 0.47078 0.4438 0.94242 1.0591 0.89537h14.154c0.39706-0.01932 0.78997-0.35243 0.78416-1.0122v-16.555c0-0.3212-0.10276-0.53698-0.33605-0.76821l-1.2215-1.2711c-0.12765-0.12165-0.20616-0.16995-0.55965-0.16995h-13.331c-0.41659 0.027527-0.57668 0.44826-0.54891 0.77858z" color="#000000" fill="url(#linearGradient6208)" fill-rule="evenodd"/>
+<rect x="26" y="3" width="12" height="7" rx=".81387" ry=".7813" color="#000000" fill="#edd400" fill-rule="evenodd"/>
+<rect transform="matrix(1 0 -.0059706 .99998 0 0)" x="26.264" y="3.4118" width="11.553" height="6.1766" rx=".5093" ry=".47193" color="#000000" fill="none" opacity=".44944"/>
+<g fill-rule="evenodd">
+<rect x="25" y="16.069" width="14" height="4.931" rx=".36905" ry=".36632" color="#000000" fill="#2e3436"/>
+<rect x="25.558" y="16.517" width="12.886" height="4.0344" rx=".057624" ry=".058131" color="#000000" fill="#eeeeec"/>
+<rect x="25.558" y="16.517" width="12.886" height="1.4827" rx=".057624" ry=".064091" color="#000000" fill="#8f5902"/>
+<rect x="26" y="17" width="4" height="1" rx=".051683" ry=".064839" color="#000000" fill="#e9b96e"/>
+<rect x="32" y="17" width="2" height="1" rx=".064254" ry=".064839" color="#000000" fill="#e9b96e"/>
+</g>
+<path d="m25.004 2v17.777a1.0005 1.0005 0 0 1 0.05859-2e-3h14.104c-0.12765 0.0062-0.16374 0.25666-0.16602-2e-3a1.0005 1.0005 0 0 1 0-0.0098v-16.555c0-0.10808 0.07612 0.059463-0.04102-0.056641a1.0005 1.0005 0 0 1-0.01563-0.017578l-1.0918-1.1348z" color="#000000" fill="none" opacity=".17978" xlink:href="#path4291"/>
+<g fill="#fff" fill-rule="evenodd">
+<path d="m29 3v2h1v-2z" color="#000000" opacity=".44944"/>
+<path d="m31 3v3h1v-3z" color="#000000" opacity=".44944"/>
+<path d="m33 3v3h1v-3z" color="#000000" opacity=".44944"/>
+<path d="m35 3v4h1v-4z" color="#000000" opacity=".44944"/>
+<path d="m27 3v7h1v-7z" color="#000000" opacity=".44944"/>
+<path d="m29 6v4h1v-4z" color="#000000" opacity=".44944"/>
+<path d="m31 7v3h1v-3z" color="#000000" opacity=".44944"/>
+<path d="m33 7v3h1v-3z" color="#000000" opacity=".44944"/>
+<path d="m35 8v2h1v-2z" color="#000000" opacity=".44944"/>
+</g>
+</g>
+</svg>

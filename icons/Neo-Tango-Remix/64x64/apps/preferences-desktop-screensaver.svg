@@ -1,0 +1,54 @@
+<svg width="64" height="64" version="1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<linearGradient id="linearGradient2707" x1="12.207" x2="12.128" y1="53.535" y2="64.893" gradientTransform="matrix(1.6075 0 0 .70286 -3.4628 -16.695)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#585956" offset="0"/>
+<stop stop-color="#bbbeb8" offset="1"/>
+</linearGradient>
+<linearGradient id="linearGradient1010" x1="12.207" x2="12.128" y1="53.535" y2="64.893" gradientTransform="matrix(3.215 0 0 1.4057 -6.9257 -31.391)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient2707"/>
+<linearGradient id="linearGradient897" x1="12.207" x2="12.128" y1="53.535" y2="64.893" gradientTransform="matrix(3.215 0 0 1.4065 -6.9257 -31.439)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient2707"/>
+<filter id="filter936" color-interpolation-filters="sRGB">
+<feFlood flood-color="rgb(0,0,0)" flood-opacity=".2" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="1" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+</filter>
+<filter id="filter948" color-interpolation-filters="sRGB">
+<feFlood flood-color="rgb(0,0,0)" flood-opacity=".2" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="1" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="fbSourceGraphic"/>
+<feColorMatrix in="fbSourceGraphic" result="fbSourceGraphicAlpha" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+<feFlood flood-color="rgb(255,255,255)" flood-opacity=".10196" in="fbSourceGraphic" result="flood"/>
+<feComposite in="flood" in2="fbSourceGraphic" operator="out" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="1" result="offset"/>
+<feComposite in="offset" in2="fbSourceGraphic" operator="atop" result="composite2"/>
+</filter>
+<filter id="filter960" color-interpolation-filters="sRGB">
+<feFlood flood-color="rgb(0,0,0)" flood-opacity=".2" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="1" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+</filter>
+</defs>
+<ellipse cx="32" cy="54.5" rx="14" ry="5.5" color="#000000" fill="#adb0aa" fill-rule="evenodd" filter="url(#filter960)" stroke-width="3.6592"/>
+<ellipse cx="31.994" cy="53.154" rx="12.631" ry="4.6124" color="#000000" fill="none" stroke-width="3.683"/>
+<g fill-rule="evenodd">
+<rect x="24" y="47" width="16" height="7" color="#000000" fill="url(#linearGradient897)" stroke-width="3.7417"/>
+<path d="m6.3609 6c-1.583 0-2.3572 0.90737-2.3574 2.0292v37.045c-0.082346 1.6189 1.272 2.926 2.855 2.926h50.274c1.5829 0 2.9372-1.3073 2.855-2.926l0.0166-37.045c-0.060457-1.1849-1.0686-2.0292-2.3575-2.0292h-51.288z" color="#000000" fill="#dde1d9" filter="url(#filter948)" stroke-width="3.4999"/>
+<path d="m8 9.9996-6.86e-5 32h48v-31.864z" fill="#5b5b97" stroke-width="3.4916"/>
+</g>
+<path d="m47.884 22c2.3164 10.462-4.5642 16.537-15.884 10.454 0.87016 3.2018 3.1452 5.968 6.5944 7.0586 5.3954 1.7059 11.183-1.2082 12.92-6.5054 1.3706-4.1788-0.26318-8.4896-3.6306-11.007z" color="#000000" fill="#fce94f" filter="url(#filter936)" stroke-width="3.3622"/>
+<g fill="#fff">
+<path d="m22.766 16.05-4.2968 0.3867-0.45058 4.4774-0.37738-4.4026-4.3698-0.46166 4.2968-0.3867 0.45058-4.4774 0.37738 4.4026z" color="#000000" stroke-width="1.4307"/>
+<g stroke-width=".90358">
+<path d="m32 17.79-2.7136 0.24422-0.28458 2.8278-0.23834-2.7806-2.7598-0.29158 2.7136-0.24422 0.28458-2.8278 0.23834 2.7806z" color="#000000"/>
+<path d="m23.598 23.368-2.7136 0.24422-0.28458 2.8278-0.23834-2.7806-2.7598-0.29158 2.7136-0.24422 0.28458-2.8278 0.23834 2.7806z" color="#000000"/>
+<path d="m17.996 28.928-2.7136 0.24422-0.28458 2.8278-0.23834-2.7806-2.7598-0.29158 2.7136-0.24422 0.28458-2.8278 0.23834 2.7806z" color="#000000"/>
+</g>
+</g>
+<path d="m24 52v2h16v-2z" color="#000000" fill="url(#linearGradient1010)" fill-rule="evenodd" stroke-width="3.7406"/>
+</svg>

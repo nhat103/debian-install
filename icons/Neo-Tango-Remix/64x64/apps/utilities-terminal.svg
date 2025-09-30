@@ -1,0 +1,31 @@
+<svg width="64" height="64" version="1" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<filter id="filter915" color-interpolation-filters="sRGB">
+<feFlood flood-color="rgb(0,0,0)" flood-opacity=".2" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="1" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+</filter>
+<filter id="filter927" color-interpolation-filters="sRGB">
+<feFlood flood-color="rgb(0,0,0)" flood-opacity=".2" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="1" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="fbSourceGraphic"/>
+<feColorMatrix in="fbSourceGraphic" result="fbSourceGraphicAlpha" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+<feFlood flood-color="rgb(255,255,255)" flood-opacity=".10196" in="fbSourceGraphic" result="flood"/>
+<feComposite in="flood" in2="fbSourceGraphic" operator="out" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="1" result="offset"/>
+<feComposite in="offset" in2="fbSourceGraphic" operator="atop" result="composite2"/>
+</filter>
+</defs>
+<rect x="4" y="8" width="56" height="50" rx="2.4842" ry="2.8344" fill="#748f48" fill-rule="evenodd" filter="url(#filter927)" stroke-width="4.8306"/>
+<g fill="#fff">
+<path d="m18 27v-3l14 4.8708v2.2262l-14 4.903v-3l10.5-3z" filter="url(#filter915)" stroke-width="3.2404"/>
+<rect x="30" y="42" width="14" height="2" fill-rule="evenodd" stroke-width="2.3664"/>
+<rect x="30" y="42" width="14" height="2" fill-rule="evenodd" stroke-width="2.3664"/>
+</g>
+<rect x="30" y="44" width="14" height="1" fill-opacity=".2" fill-rule="evenodd" stroke-width="1.6733"/>
+</svg>

@@ -1,0 +1,20 @@
+<svg width="32" height="32" version="1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<filter id="filter900" color-interpolation-filters="sRGB">
+<feFlood flood-color="rgb(0,0,0)" flood-opacity=".2" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="1" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+</filter>
+<filter id="filter912" color-interpolation-filters="sRGB">
+<feFlood flood-color="rgb(0,0,0)" flood-opacity=".2" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="1" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+</filter>
+</defs>
+<ellipse cx="16" cy="16" rx="14" ry="14" fill="#6194cb" filter="url(#filter900)" stroke-width="1.918"/>
+<path d="m15.533 8.4445c-0.67287 1.6e-5 -1.3609 0.077066-2.0811 0.2128-0.71982 0.1357-1.5234 0.33449-2.3939 0.61923a0.08575 0.083081 0 0 0-0.058333 0.07815v3.1742a0.08575 0.083081 0 0 0 0.13154 0.06973c0.72585-0.44264 1.4203-0.77165 2.0862-0.99191a0.08575 0.083081 0 0 0 0.0013 0c0.66595-0.22702 1.2894-0.34145 1.8577-0.34145 0.60312 1.3e-5 1.0501 0.13081 1.375 0.38594a0.08575 0.083081 0 0 0 0.0013 0c0.32322 0.24752 0.48397 0.59792 0.48397 1.0508-5e-6 0.2959-0.0792 0.58086-0.26558 0.88011a0.08575 0.083081 0 0 0-0.0013 0.0012c-0.1798 0.2998-0.47283 0.63314-0.8761 0.9799l-0.6937 0.57711a0.08575 0.083081 0 0 0-0.0013 0.0012c-0.76341 0.66516-1.2627 1.2293-1.5078 1.6773-0.24308 0.43772-0.36733 0.9357-0.36733 1.5005v0.50018a0.08575 0.083081 0 0 0 0.08563 0.0829h3.8719a0.08575 0.083081 0 0 0 0.08563-0.08297v-0.46169c-8e-6 -0.28822 0.08311-0.54604 0.22708-0.78512a0.08575 0.083081 0 0 0 0-0.0012c0.14124-0.24087 0.45237-0.58262 0.93572-0.99795l0.6751-0.57713a0.08575 0.083081 0 0 0 0.0013-0.0012c0.67769-0.6047 1.1607-1.1638 1.4469-1.6965 0.28546-0.53805 0.44675-1.1533 0.44675-1.8276-1.1e-5 -1.3089-0.48621-2.3071-1.4234-2.9901-0.93731-0.69001-2.2839-1.0363-4.043-1.0363zm-2.2325 11.792a0.08575 0.083081 0 0 0-0.07693 0.08295v3.5974a0.08575 0.083081 0 0 0 0.08563 0.08294h3.8719a0.08575 0.083081 0 0 0 0.08563-0.08294v-3.5974a0.08575 0.083081 0 0 0-0.08563-0.08295h-3.8719a0.08575 0.083081 0 0 0-0.0087 0z" fill="#fff" filter="url(#filter912)" stroke-width=".62541" xlink:href="#text2215"/>
+</svg>

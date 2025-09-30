@@ -1,0 +1,46 @@
+<svg width="32" height="32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<linearGradient id="linearGradient2707" x1="12.207" x2="12.128" y1="53.535" y2="64.893" gradientTransform="matrix(1.0448 0 0 .32134 3.0497 1.6796)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#585956" offset="0"/>
+<stop stop-color="#bbbeb8" offset="1"/>
+</linearGradient>
+<linearGradient id="linearGradient2251" x1="8.6116" x2="34.784" y1="7.2294" y2="33.34" gradientTransform="matrix(.66656 0 0 .51981 1.6358 1.1043)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient2245"/>
+<linearGradient id="linearGradient2245">
+<stop stop-color="#dde1d9" offset="0"/>
+<stop stop-color="#cacdc6" offset="1"/>
+</linearGradient>
+<linearGradient id="linearGradient2981" x1="18.317" x2="18.177" y1="48.643" y2="52.536" gradientTransform="matrix(.63847 0 0 .45856 2.5893 5.9239)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient2245"/>
+<filter id="filter969" color-interpolation-filters="sRGB">
+<feFlood flood-color="rgb(0,0,0)" flood-opacity=".2" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="1" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+</filter>
+<filter id="filter981" color-interpolation-filters="sRGB">
+<feFlood flood-color="rgb(0,0,0)" flood-opacity=".2" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="1" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+</filter>
+<filter id="filter1021" color-interpolation-filters="sRGB">
+<feFlood flood-color="rgb(255,255,255)" flood-opacity=".10196" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="1" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+</filter>
+</defs>
+<g fill-rule="evenodd" filter="url(#filter1021)">
+<path d="m10.137 21.199a5.5 2.2995 0 0 0-0.13672 0.50195 5.5 2.2995 0 0 0 5.5 2.2988 5.5 2.2995 0 0 0 5.5-2.2988 5.5 2.2995 0 0 0-0.13672-0.49805 5.5 2.2995 0 0 1-5.3633 1.7969 5.5 2.2995 0 0 1-5.3633-1.8008z" color="#000000" fill-opacity=".2" stroke-width="1.337"/>
+<path d="m17.536 18.667-0.03648 0.58367s2.5239 2.1008 5.2531 2.4529c1.3646 0.17608 2.7745 0.40998 3.9398 0.69311 1.1652 0.28313 2.0944 0.65348 2.4077 0.96671 0.18118 0.18118 0.26327 0.33482 0.29184 0.45599 0.02856 0.12117 0.02231 0.2071-0.05472 0.32832-0.15405 0.24244-0.63028 0.56479-1.4409 0.82079-1.6213 0.51199-4.5062 0.83903-8.4997 0.83903v0.58367c4.025 0 6.9244-0.30799 8.6639-0.85727 0.86969-0.27464 1.4738-0.59283 1.7693-1.0579 0.14775-0.23254 0.20855-0.51856 0.14592-0.78431-0.06264-0.26574-0.22445-0.5163-0.45599-0.74784-0.51222-0.51222-1.4807-0.82091-2.6812-1.1126-1.2006-0.29173-2.6357-0.53366-4.0128-0.71134-2.7541-0.35536-5.2896-2.4529-5.2896-2.4529z" fill="#d0d0d0" stroke-width="1.3"/>
+<ellipse cx="15.5" cy="20.7" rx="5.5" ry="2.2995" color="#000000" fill="#adb0aa" stroke-width="1.337"/>
+<rect x="13.1" y="19.601" width="5.1999" height="1.5992" color="#000000" fill="url(#linearGradient2707)" stroke-width="1.3"/>
+<path d="m5.9831 3h19.034c0.53765 0 0.98341 0.20827 0.98329 0.68941l-0.0035 15.124c-1.57e-4 0.65735-0.53157 1.1865-1.1919 1.1865h-18.61c-0.6603 0-1.1918-0.5292-1.1919-1.1865l-0.0029829-15.124c-8.79e-5 -0.45492 0.323-0.68941 0.98331-0.68941z" color="#000000" fill="url(#linearGradient2251)" filter="url(#filter969)" stroke-width="1.3102"/>
+<path d="m7 5v12h17v-11.949z" fill="#5b5b97" stroke-width="1.2071"/>
+<path d="m6.241 25h17.518c0.63248 0 0.55229 0.14063 0.6172 0.31752l1.6019 4.365c0.064914 0.17689 0.015271 0.31752-0.6172 0.31752h-20.723c-0.63247 0-0.68212-0.14063-0.6172-0.31752l1.6019-4.365c0.064913-0.17688-0.015271-0.31752 0.6172-0.31752z" color="#000000" fill="url(#linearGradient2981)" filter="url(#filter981)" stroke-width="1.2699"/>
+<path d="m23.922 26 0.87783 3h-3.0351l-0.85288-3z" color="#000000" fill="#9d9d9d" stroke-width="1.3964"/>
+<path d="m6.3004 26-0.99998 3h15.6l-0.94998-3z" fill="#9d9d9d" stroke-width="1.3964"/>
+</g>
+</svg>

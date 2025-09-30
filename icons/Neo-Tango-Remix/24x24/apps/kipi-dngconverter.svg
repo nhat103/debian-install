@@ -1,0 +1,31 @@
+<svg width="24" height="24" version="1" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<filter id="filter1177" color-interpolation-filters="sRGB">
+<feFlood flood-color="rgb(255,255,255)" flood-opacity=".10196" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="out" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="0.5" result="offset"/>
+<feComposite in="offset" in2="SourceGraphic" operator="atop" result="fbSourceGraphic"/>
+<feColorMatrix in="fbSourceGraphic" result="fbSourceGraphicAlpha" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+<feFlood flood-color="rgb(0,0,0)" flood-opacity=".2" in="fbSourceGraphic" result="flood"/>
+<feComposite in="flood" in2="fbSourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="0.5" result="offset"/>
+<feComposite in="fbSourceGraphic" in2="offset" result="composite2"/>
+</filter>
+</defs>
+<g transform="translate(1.005 1)">
+<path d="m1.5244 3.0001h18.951c0.29048 0 0.52434 0.22776 0.52434 0.51066v10.849c0 0.28291-3.9415 3.6401-4.2319 3.6401h-15.244c-0.29048 0-0.52433-0.22775-0.52433-0.51066v-13.979c0-0.28291 0.23385-0.51066 0.52433-0.51066z" color="#000000" fill="#d2d2d2" filter="url(#filter1177)" stroke-width="1.25"/>
+<path d="m2 12v5h16.714v-1.25h1.2857v-3.75z" fill="#8595bc" stroke-width="1.2677"/>
+<path d="m2 4h18v8h-18z" fill="#d0d6e5" stroke-width="1.3088"/>
+<path d="M 8,7.5 C 8,8.31081 7.35135,9 6.5,9 5.68919,9 5,8.35135 5,7.5 5,6.68919 5.64865,6 6.5,6 7.31081,6 8,6.64865 8,7.5 Z" fill="#fffa6a"/>
+<g transform="matrix(1.25,0,0,1.25,-36.499,-1.0673)" fill="#515151">
+<path d="m38.941 10.467h3.4142l0.51447-0.3259h-1.1225s1.0289-0.18623 1.1692-1.3502c0.14031-1.1639-1.5902-2.4675-1.5902-2.4675v0.046557c0.04677 0.27934 0.51447 2.2348 0.18708 2.9797-0.14031 0.6518-0.56124 0.79148-0.56124 0.79148h-2.1514l0.09354 0.3259z"/>
+<path d="m40.999 9.9544h-1.9643l2.3385-3.5384z"/>
+</g>
+<g transform="translate(1)">
+<circle cx="15.5" cy="16.5" r="5.5" fill="#42cd4f"/>
+<path d="m15.5 13c-1.933 0-3.5 1.567-3.5 3.5s1.567 3.5 3.5 3.5c1.5874 0 2.9308-1.0516 3.3594-2.5h-1.0781c-0.38714 0.87975-1.2584 1.5-2.2812 1.5-1.3807 0-2.5-1.1193-2.5-2.5s1.1193-2.5 2.5-2.5c0.6908 0 1.3078 0.28752 1.7578 0.7422l-1.258 1.258h3v-3l-1.0264 1.0264c-0.634-0.6325-1.5065-1.0265-2.4735-1.0265z" fill="#fff"/>
+</g>
+</g>
+</svg>

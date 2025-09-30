@@ -1,0 +1,18 @@
+<svg width="22" height="22" version="1" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<style id="current-color-scheme" type="text/css">.ColorScheme-Text { color:#dfdfdf; } .ColorScheme-Highlight { color:#4285f4; }</style>
+</defs>
+<g transform="matrix(1 0 0 1.0001 -24.001 .998)">
+<g transform="translate(24,-2)" fill="#dde1d9">
+<path d="m10 6a1 1 0 0 0-1 1 1 1 0 0 0 1 1 1 1 0 0 0 1-1 1 1 0 0 0-1-1z"/>
+<path d="m15 6a2 2 0 0 0-2 2 2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2z"/>
+<path d="M 6.5,9 A 1.5,1.5 0 0 0 5,10.5 1.5,1.5 0 0 0 6.5,12 1.5,1.5 0 0 0 8,10.5 1.5,1.5 0 0 0 6.5,9 Z"/>
+<path d="m15.465 11.4a0.5 0.5 0 0 0-0.46484 0.5 0.5 0.5 0 0 0 0.5 0.5 0.5 0.5 0 0 0 0.5-0.5 0.5 0.5 0 0 0-0.5-0.5 0.5 0.5 0 0 0-0.03516 0z"/>
+<path d="m12 12a1 1 0 0 0-1 1 1 1 0 0 0 1 1 1 1 0 0 0 1-1 1 1 0 0 0-1-1z"/>
+</g>
+<ellipse cx="34.997" cy="18.01" rx="4.999" ry="1.9901" color="#000000" fill="#dde1d9" fill-rule="evenodd" stroke-width="1.3153"/>
+<ellipse cx="34.997" cy="17.842" rx="4.5109" ry="1.6472" color="#000000" fill="none" stroke-width="1.3153"/>
+<rect x="31.999" y="15.502" width="6" height="2.4985" color="#000000" fill="#dde1d9" fill-rule="evenodd" stroke-width="1.3689"/>
+<path d="m25.843 1.0019c-0.56529 0-0.84175 0.32402-0.8418 0.72461v13.229c-0.02941 0.5781 0.45424 1.0449 1.0195 1.0449h17.953c0.56527 0 1.0489-0.46683 1.0195-1.0449l0.0059-13.229c-0.02156-0.42313-0.38156-0.72461-0.84184-0.72461h-18.315zm0.15625 0.99805 18-5e-5v12h-18v-12z" color="#000000" fill="#dde1d9" fill-rule="evenodd" stroke-width="1.2498"/>
+</g>
+</svg>

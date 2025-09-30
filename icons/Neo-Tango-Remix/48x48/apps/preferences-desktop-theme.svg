@@ -1,0 +1,39 @@
+<svg width="48" height="48" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<filter id="filter990" color-interpolation-filters="sRGB">
+<feFlood flood-color="rgb(0,0,0)" flood-opacity=".2" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="1" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+</filter>
+<filter id="filter1002" color-interpolation-filters="sRGB">
+<feFlood flood-color="rgb(0,0,0)" flood-opacity=".2" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="1" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+</filter>
+<filter id="filter1014" color-interpolation-filters="sRGB">
+<feFlood flood-color="rgb(0,0,0)" flood-opacity=".2" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="1" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+</filter>
+</defs>
+<g fill-rule="evenodd">
+<path d="m31.376 10.414h3.2481c3.7605 0 8.3755 1.3118 8.3755 1.8482v21.77c0 0.5363-0.38328 0.96802-0.85935 0.96802h-18.281c-0.47608 0-0.85935-0.43176-0.85935-0.96802v-21.77c0-0.5363 4.5371-1.8482 8.3755-1.8482z" color="#000000" fill="#5079ad" filter="url(#filter990)" stroke-width="2.3673"/>
+<path d="m33 13.895s-2 2.4018-2 4.6323v13.472l2 4 2-4v-13.637c0-1.868-2-4.4672-2-4.4672z" color="#000000" fill="#75507b" filter="url(#filter1014)" stroke-width="3.0763"/>
+<ellipse cx="33" cy="14" rx="2" ry="2" color="#000000" fill="#75507b" stroke-width="1.9999"/>
+<path d="m33.008 13.082-4.2911 3.4839s-1.7164-5.1028-1.7164-7.3729c0-2.2686 1.1382-3.1596 2.3523-3.1596h7.2086c0.82122 0 2.2574 0.36461 2.428 2.9975 0.17074 2.6333-1.6906 7.5351-1.6906 7.5351z" color="#000000" fill="#c8d5e6" filter="url(#filter1002)" stroke-width="2.2469"/>
+<path d="m29.568 7s-1.8564 0.62498-1.5287 2.125c0.32757 1.5 1.6889 3.875 2.839 3.875h4.6953c0.76682 0 2.1567-2 2.4022-3.5 0.24569-1.5-1.4195-2.4997-1.4195-2.4997z" color="#000000" fill="#204a87" stroke-width="2.7872"/>
+</g>
+<g fill-rule="evenodd">
+<path d="m12.376 18.414h3.2481c3.7605 0 8.3755 1.3118 8.3755 1.8482v21.77c0 0.5363-0.38328 0.96802-0.85935 0.96802h-18.281c-0.47608 0-0.85935-0.43176-0.85935-0.96802v-21.77c0-0.5363 4.5371-1.8482 8.3755-1.8482z" color="#000000" fill="#d6d6d6" filter="url(#filter990)" stroke-width="2.3673"/>
+<path d="m14 21.895s-2 2.4018-2 4.6323v13.472l2 4 2-4v-13.637c0-1.868-2-4.4672-2-4.4672z" color="#000000" fill="#555753" filter="url(#filter1014)" stroke-width="3.0763"/>
+<ellipse cx="14" cy="22" rx="2" ry="2" color="#000000" fill="#80837d" stroke-width="1.9999"/>
+<path d="m14.008 21.082-4.2911 3.4839s-1.7164-5.1028-1.7164-7.3729c0-2.2686 1.1382-3.1596 2.3523-3.1596h7.2086c0.82122 0 2.2574 0.36461 2.428 2.9975 0.17074 2.6333-1.6906 7.5351-1.6906 7.5351z" color="#000000" fill="#f0f0f0" filter="url(#filter1002)" stroke-width="2.2469"/>
+<path d="m10.568 15s-1.8564 0.62498-1.5287 2.125c0.32757 1.5 1.6889 3.875 2.839 3.875h4.6953c0.76682 0 2.1567-2 2.4022-3.5 0.24569-1.5-1.4195-2.4997-1.4195-2.4997z" color="#000000" fill="#8b8b8b" stroke-width="2.7872"/>
+</g>
+</svg>

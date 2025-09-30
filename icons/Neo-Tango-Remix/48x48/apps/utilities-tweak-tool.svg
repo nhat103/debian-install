@@ -1,0 +1,40 @@
+<svg width="48" height="48" version="1" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<filter id="filter962" color-interpolation-filters="sRGB">
+<feFlood flood-color="rgb(0,0,0)" flood-opacity=".2" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="1" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+</filter>
+</defs>
+<rect x="9" y="17.5" width="32" height="22.5" rx=".85793" ry=".80941" color="#000000" fill="#d3d7cf" fill-opacity=".99608" fill-rule="evenodd" filter="url(#filter962)" stroke-width="2.5819"/>
+<rect x="9.206" y="17.461" width="30.757" height="22.002" rx="0" ry="0" color="#000000" fill="none" stroke-width="2.6014"/>
+<rect x="14.382" y="27.349" width="4.2085" height="3.0655" color="#000000" fill="none" stroke-width="2.6014"/>
+<path d="m9 19-3.2339-9h38.492l-3.2578 9z" color="#000000" fill="#a5a5a5" stroke-width="2.4302"/>
+<rect x="4" y="10" width="42" height="3" color="#000000" fill="#ddd" stroke-width="2.8062"/>
+<rect x="11" y="25" width="8" height="4" color="#000000" fill="#eeeeec" stroke-width="2.8285"/>
+<g stroke-width="2.7385">
+<rect x="12" y="15" width="5" height="3" rx=".89886" ry="1.5" color="#000000" fill="#ddd"/>
+<path d="m12.061 17c-0.033761 0.15807-0.060547 0.32211-0.060547 0.5 0 0.831 0.40047 1.5 0.89844 1.5h3.2031c0.49797 0 0.89844-0.669 0.89844-1.5 0-0.17789-0.02679-0.34193-0.06055-0.5-0.12395 0.58034-0.44652 1-0.83789 1h-3.2031c-0.39137 0-0.71394-0.41966-0.83789-1z" color="#000000" fill-opacity=".2"/>
+</g>
+<g transform="translate(21)" stroke-width="2.7385">
+<rect x="12" y="15" width="5" height="3" rx=".89886" ry="1.5" color="#000000" fill="#ddd"/>
+<path d="m12.061 17c-0.033761 0.15807-0.060547 0.32211-0.060547 0.5 0 0.831 0.40047 1.5 0.89844 1.5h3.2031c0.49797 0 0.89844-0.669 0.89844-1.5 0-0.17789-0.02679-0.34193-0.06055-0.5-0.12395 0.58034-0.44652 1-0.83789 1h-3.2031c-0.39137 0-0.71394-0.41966-0.83789-1z" color="#000000" fill-opacity=".2"/>
+</g>
+<rect x="21" y="33" width="8" height="4" color="#000000" fill="#eeeeec" stroke-width="2.8285"/>
+<rect x="23" y="25" width="4" height="8" color="#000000" fill="#677579" stroke-width="3.266"/>
+<rect x="31" y="33" width="8" height="4" color="#000000" fill="#eeeeec" stroke-width="2.8285"/>
+<rect x="33" y="25" width="4" height="8" color="#000000" fill="#677579" stroke-width="3.266"/>
+<rect x="13" y="37" width="4" height="1" fill-opacity=".2" fill-rule="evenodd"/>
+<rect x="13" y="29" width="4" height="8" color="#000000" fill="#677579" stroke-width="3.266"/>
+<g fill-opacity=".2" fill-rule="evenodd">
+<g stroke-width="1.4142">
+<rect x="11" y="29" width="8" height="1"/>
+<rect x="21" y="37" width="8" height="1"/>
+<rect x="31" y="37" width="8" height="1"/>
+</g>
+<rect x="4" y="13" width="42" height="1" stroke-width="3.2404"/>
+</g>
+<rect x="4" y="10" width="42" height="1" fill="#fff" fill-opacity=".1" fill-rule="evenodd" stroke-width="3.2404"/>
+</svg>

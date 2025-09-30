@@ -1,0 +1,31 @@
+<svg width="32" height="32" version="1" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<filter id="filter1199" color-interpolation-filters="sRGB">
+<feFlood flood-color="rgb(0,0,0)" flood-opacity=".2" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="1" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="fbSourceGraphic"/>
+<feColorMatrix in="fbSourceGraphic" result="fbSourceGraphicAlpha" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+<feFlood flood-color="rgb(255,255,255)" flood-opacity=".10196" in="fbSourceGraphic" result="flood"/>
+<feComposite in="flood" in2="fbSourceGraphic" operator="out" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="1" result="offset"/>
+<feComposite in="offset" in2="fbSourceGraphic" operator="atop" result="composite2"/>
+</filter>
+</defs>
+<g filter="url(#filter1199)">
+<rect x="2" y="16" width="28" height="2" color="#000000" display="block" fill="#acacac" stroke-width=".61896"/>
+<circle cx="22" cy="17" r="1.6" color="#000000" fill="#acacac" fill-rule="evenodd" stroke="#acacac" stroke-width=".8"/>
+<path d="m9 7.6914v20.309h13v-20.431l-2.3918-2.5692h-8.336z" fill="#eaeaea" fill-rule="evenodd" stroke-width=".59805"/>
+<g fill="#acacac" fill-rule="evenodd" stroke="#acacac">
+<rect x="10.311" y="9.3106" width="10.379" height="2.3789" color="#000000" stroke-width=".62112"/>
+<rect x="10.311" y="13.311" width="10.379" height="2.3789" color="#000000" stroke-width=".62112"/>
+<rect x="13.268" y="17.268" width="7.4639" height="2.4639" color="#000000" stroke-width=".53606"/>
+<g transform="matrix(.44286 0 0 .44645 3.5655 7.4433)">
+<circle transform="matrix(.77981 0 0 .77353 -34.69 5.5951)" cx="66.013" cy="26.231" r="2.1718" color="#000000" stroke-width="1.4477"/>
+<circle transform="matrix(1.0086 0 0 1.0005 -.073964 -.054996)" cx="16.162" cy="25.575" r=".50508" color="#000000"/>
+</g>
+</g>
+</g>
+</svg>

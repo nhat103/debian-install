@@ -1,0 +1,81 @@
+<svg width="32" height="32" version="1" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<filter id="filter1061" color-interpolation-filters="sRGB">
+<feFlood flood-color="rgb(0,0,0)" flood-opacity=".2" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="0.5" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+</filter>
+<filter id="filter1073" color-interpolation-filters="sRGB">
+<feFlood flood-color="rgb(0,0,0)" flood-opacity=".2" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="0.5" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+</filter>
+<filter id="filter1085" color-interpolation-filters="sRGB">
+<feFlood flood-color="rgb(0,0,0)" flood-opacity=".2" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="0.5" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="fbSourceGraphic"/>
+<feColorMatrix in="fbSourceGraphic" result="fbSourceGraphicAlpha" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+<feFlood flood-color="rgb(255,255,255)" flood-opacity=".10196" in="fbSourceGraphic" result="flood"/>
+<feComposite in="flood" in2="fbSourceGraphic" operator="out" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="0.5" result="offset"/>
+<feComposite in="offset" in2="fbSourceGraphic" operator="atop" result="composite2"/>
+</filter>
+<filter id="filter1097" color-interpolation-filters="sRGB">
+<feFlood flood-color="rgb(0,0,0)" flood-opacity=".2" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="0.5" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="fbSourceGraphic"/>
+<feColorMatrix in="fbSourceGraphic" result="fbSourceGraphicAlpha" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+<feFlood flood-color="rgb(255,255,255)" flood-opacity=".10196" in="fbSourceGraphic" result="flood"/>
+<feComposite in="flood" in2="fbSourceGraphic" operator="out" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="0.5" result="offset"/>
+<feComposite in="offset" in2="fbSourceGraphic" operator="atop" result="composite2"/>
+</filter>
+<filter id="filter1109" color-interpolation-filters="sRGB">
+<feFlood flood-color="rgb(0,0,0)" flood-opacity=".2" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="0.5" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="fbSourceGraphic"/>
+<feColorMatrix in="fbSourceGraphic" result="fbSourceGraphicAlpha" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+<feFlood flood-color="rgb(255,255,255)" flood-opacity=".10196" in="fbSourceGraphic" result="flood"/>
+<feComposite in="flood" in2="fbSourceGraphic" operator="out" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="0.5" result="offset"/>
+<feComposite in="offset" in2="fbSourceGraphic" operator="atop" result="composite2"/>
+</filter>
+<filter id="filter1121" color-interpolation-filters="sRGB">
+<feFlood flood-color="rgb(0,0,0)" flood-opacity=".2" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="0.5" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+</filter>
+<filter id="filter1154" color-interpolation-filters="sRGB">
+<feFlood flood-color="rgb(255,255,255)" flood-opacity=".10196" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="out" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="0.5" result="offset"/>
+<feComposite in="offset" in2="SourceGraphic" operator="atop" result="composite2"/>
+</filter>
+</defs>
+<g filter="url(#filter1154)">
+<path d="m2.6852 18.993c-0.21458-0.011058-0.42917-0.23331-0.42917-0.4445v-15.892c0-0.21119 0.21458-0.41133 0.42917-0.40027l13.638 0.47506c0.21458 0.011058 0.42917 0.23331 0.42917 0.44449v6.7326c0 0.24607 0.16268 0.62625 0.57038 0.71103l1.8874 0.31016c0.3792 0.07888 0.53494 0.44754 0.53494 0.65877v7.4971c0 0.21119-0.21458 0.41133-0.42917 0.40027z" fill="#b9b9b9" filter="url(#filter1121)" stroke="#b9b9b9" stroke-linecap="round" stroke-linejoin="round" stroke-width=".51057"/>
+</g>
+<g stroke-linejoin="round">
+<path d="m2.2585 19.873c0.022877 0.5756 0.56916 0.98783 1.205 1.03 5.9956 0.39843 11.023 0.83496 11.023 0.83496 0.12848 0.03629 0.25697-0.08449 0.25697-0.24161v-17.295l-11.353-0.93102c-0.50985-0.05764-0.93696-0.23449-1.1338-0.77986z" color="#000000" display="block" fill="#165ba0" filter="url(#filter1109)" stroke="#165ba0" stroke-width=".51344"/>
+<path d="m12.685 26.993c-0.21458-0.011058-0.42917-0.23331-0.42917-0.4445v-15.892c0-0.21119 0.21458-0.41133 0.42917-0.40027l13.638 0.47506c0.21458 0.01106 0.42917 0.23331 0.42917 0.44449v6.7326c0 0.24607 0.16268 0.62625 0.57038 0.71103l1.8874 0.31016c0.3792 0.07888 0.53494 0.44754 0.53494 0.65877v7.4971c0 0.21119-0.21458 0.41133-0.42917 0.40027z" fill="#b9b9b9" filter="url(#filter1097)" stroke="#b9b9b9" stroke-linecap="round" stroke-width=".51057"/>
+<path d="m12.259 27.873c0.02288 0.5756 0.56916 0.98783 1.205 1.03 5.9956 0.39843 11.023 0.83496 11.023 0.83496 0.12848 0.03629 0.25697-0.08449 0.25697-0.24161v-17.295l-11.353-0.93102c-0.50985-0.05764-0.93696-0.23449-1.1338-0.77986z" color="#000000" display="block" fill="#16a085" filter="url(#filter1085)" stroke="#16a085" stroke-width=".51344"/>
+</g>
+<path d="m7 11a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 2-0.76758v0.76758h1v-6h-1v0.76953a3 3 0 0 0-2-0.76953zm0 1a2 2 0 0 1 2 2 2 2 0 0 1-2 2 2 2 0 0 1-2-2 2 2 0 0 1 2-2z" fill="#fff" filter="url(#filter1073)"/>
+<path d="m14 20v7h1v-0.50195a2.5 2.5 0 0 0 1.5 0.50195 2.5 2.5 0 0 0 2.5-2.5 2.5 2.5 0 0 0-2.5-2.5 2.5 2.5 0 0 0-1.5 0.50391v-2.5039zm2.5 3a1.5 1.5 0 0 1 1.5 1.5 1.5 1.5 0 0 1-1.5 1.5 1.5 1.5 0 0 1-1.5-1.5 1.5 1.5 0 0 1 1.5-1.5z" fill="#fff" filter="url(#filter1061)"/>
+</svg>

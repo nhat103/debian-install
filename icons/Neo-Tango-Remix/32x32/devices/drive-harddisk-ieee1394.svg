@@ -1,0 +1,23 @@
+<svg width="32" height="32" version="1" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<filter id="filter991" color-interpolation-filters="sRGB">
+<feFlood flood-color="rgb(255,255,255)" flood-opacity=".10196" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="out" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="1" result="offset"/>
+<feComposite in="offset" in2="SourceGraphic" operator="atop" result="composite2"/>
+</filter>
+</defs>
+<path d="m7.6723 5.0001c-0.41815 0-0.69449 0.2358-0.86174 0.66444l-4.6301 13.242c-0.035735 0.10221-0.028959 0.17597-0.051299 0.26969h27.802c-0.0051-0.02521 0.0014-0.04834-0.0068-0.07427l-4.7909-13.328c-0.12344-0.39638-0.43943-0.76467-0.76598-0.77389z" fill="#8e8e8e" filter="url(#filter991)" opacity=".9" stroke-width="1.8718"/>
+<path d="m-23 2c-1.108 0-2 0.892-2 2v1c0-1.108 0.892-2 2-2h18c1.108 0 2 0.892 2 2v-1c0-1.108-0.892-2-2-2z" fill="#fff" opacity=".2"/>
+<g transform="translate(-.55599 -3)" opacity=".5">
+<rect x="14" y="20" width="4" height="1.5"/>
+<rect x="14" y="22.5" width="4" height="1.5"/>
+<path d="m16 12a3.5 3.5 0 0 0-3.5 3.5 3.5 3.5 0 0 0 3.5 3.5 3.5 3.5 0 0 0 3.5-3.5 3.5 3.5 0 0 0-3.5-3.5zm0 2a1.5 1.5 0 0 1 1.5 1.5 1.5 1.5 0 0 1-1.5 1.5 1.5 1.5 0 0 1-1.5-1.5 1.5 1.5 0 0 1 1.5-1.5z"/>
+<rect transform="rotate(225)" x="-24.25" y="4.85" width="4" height="4"/>
+<rect transform="rotate(135)" x="-2.35" y="-17.75" width="4" height="1.5"/>
+<rect transform="rotate(135)" x="-2.35" y="-15.25" width="4" height="1.5"/>
+</g>
+<path d="m2.1608 19.124c-0.080249 0.20523-0.13009 0.39673-0.1334 0.55991l-0.027378 0.021529v6.3037c0 0.65984 0.44351 0.99061 1.1117 0.99061h25.82c0.6591 0 1.0673-0.43688 1.0673-1.1229v-6.1683c3e-3 -0.02104-0.0015-0.04306 0-0.06462v-0.1292l-0.02053-3e-3c-0.0075-0.10329-5.6e-5 -0.20399-0.04447-0.3138l-0.03421-0.07384z" fill="#8e8e8e" stroke-width="1.6609"/>
+<path d="m29.998 25.877c0 0.68602-0.4073 1.123-1.0664 1.123h-25.82c-0.66823 0-1.1113-0.3304-1.1113-0.99023v1c0 0.65984 0.4431 0.99023 1.1113 0.99023h25.82c0.6591 0 1.0664-0.43703 1.0664-1.123z" fill-opacity=".2" stroke-width="1.6609"/>
+</svg>

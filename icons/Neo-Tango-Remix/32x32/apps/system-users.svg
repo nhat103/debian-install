@@ -1,0 +1,31 @@
+<svg width="32" height="32" version="1" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<filter id="filter944" color-interpolation-filters="sRGB">
+<feFlood flood-color="rgb(0,0,0)" flood-opacity=".2" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="1" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="fbSourceGraphic"/>
+<feColorMatrix in="fbSourceGraphic" result="fbSourceGraphicAlpha" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+<feFlood flood-color="rgb(255,255,255)" flood-opacity=".10196" in="fbSourceGraphic" result="flood"/>
+<feComposite in="flood" in2="fbSourceGraphic" operator="out" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="1" result="offset"/>
+<feComposite in="offset" in2="fbSourceGraphic" operator="atop" result="composite2"/>
+</filter>
+</defs>
+<g filter="url(#filter944)">
+<g fill-rule="evenodd">
+<path d="m6.68 11c-4.3942 3.1516-5.3191 7.4601-4.3074 9.9784 1.0307 2.5655 2.7737 3.0216 4.8552 3.0216h6.9371c1.9659 0 3.9145-0.81909 4.6281-3.1521 0.67746-2.2153-0.17395-6.4338-4.568-9.8479z" color="#000000" fill="#727e0a" stroke-width="1.7817"/>
+<path d="m9.2134 12.496s-1.3831 1.1168-1.264 2.4621c-1.3123-1.2112-1.35-3.5322-1.35-3.5322z" color="#000000" fill="#9db029" stroke-width="1.7225"/>
+<path d="m11.417 12.482s1.3831 1.1168 1.264 2.4621c1.3123-1.2112 1.35-3.5322 1.35-3.5322z" color="#000000" fill="#9db029" stroke-width="1.7225"/>
+<ellipse cx="10.5" cy="7.4997" rx="5.5" ry="5.5003" color="#000000" fill="#966416" stroke-width="1.8334"/>
+<path d="m17.68 17c-4.3942 3.1516-5.3191 7.4601-4.3074 9.9784 1.0307 2.5655 2.7737 3.0216 4.8552 3.0216h6.9371c1.9659 0 3.9145-0.81909 4.6281-3.1521 0.67746-2.2153-0.17395-6.4338-4.568-9.8479z" color="#000000" fill="#3b74bc" stroke-width="1.7817"/>
+<path d="m24.1 18.575c-1.5699 2.1348-2.4669 9.4181-2.4669 9.4181s-0.89845-7.286-2.917-9.2952z" color="#000000" fill="#fff" stroke-width="1.7389"/>
+<path d="m20.412 18.471s-1.3831 1.1168-1.264 2.4621c-1.3123-1.2112-1.35-3.5322-1.35-3.5322z" color="#000000" fill="#729fcf" stroke-width="1.7225"/>
+<path d="m22.616 18.456s1.3831 1.1168 1.264 2.4621c1.3123-1.2112 1.35-3.5322 1.35-3.5322z" color="#000000" fill="#729fcf" stroke-width="1.7225"/>
+<ellipse cx="21.5" cy="13.5" rx="5.5" ry="5.5003" color="#000000" fill="#df9725" stroke-width="1.8334"/>
+</g>
+<ellipse cx="7.6901" cy="14.261" rx="5.2843" ry="5.2846" color="#000000" fill="none" opacity=".1962" stroke-width="1.75"/>
+</g>
+</svg>

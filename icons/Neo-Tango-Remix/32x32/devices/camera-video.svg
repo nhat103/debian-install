@@ -1,0 +1,69 @@
+<svg width="32" height="32" version="1" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<filter id="filter1092" color-interpolation-filters="sRGB">
+<feFlood flood-color="rgb(0,0,0)" flood-opacity=".2" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="1" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="fbSourceGraphic"/>
+<feColorMatrix in="fbSourceGraphic" result="fbSourceGraphicAlpha" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+<feFlood flood-color="rgb(255,255,255)" flood-opacity=".10196" in="fbSourceGraphic" result="flood"/>
+<feComposite in="flood" in2="fbSourceGraphic" operator="out" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="1" result="offset"/>
+<feComposite in="offset" in2="fbSourceGraphic" operator="atop" result="composite2"/>
+</filter>
+</defs>
+<g filter="url(#filter1092)">
+<g stroke-width="1.2697">
+<path d="m19.867 6.7921s0.10803-0.8136 1.0083-0.79161h5.2814c0.98426 0 1.3323 0.67067 1.2963 1.4513v3.6062c-0.01196 0.72565-0.54014 1.1764-1.2003 1.2314l-6.1456 0.04398-0.28808-1.847z" color="#000000" fill="#b6b6b6"/>
+<path d="m26.198 7.2712-5.2819 2.1118-3.6289-0.21118 5.2416-1.9006z" color="#000000" fill="#c6c6c6"/>
+<path d="m26.198 7.3115-5.403 1.4872v2.7456l5.403-1.7542z" color="#000000" fill="#919191"/>
+<path d="m5.0276 9.1258 10.057-0.23011c1.2254 0 2.2118 0.98524 2.2118 2.2091v10.861c0 1.2238-0.98648 3.034-2.2118 3.034l-9.5731-0.092045c-2.0549 0.092049-3.5021-2.0863-3.5021-4.3226v-7.8813c-0.10197-1.598 0.60821-3.3833 3.0182-3.5782z" fill="#ddd"/>
+<path d="m20.171 8.5957-9.1753-0.064282c-3.1848 0.019719-4.9575 2.2232-4.9575 4.1607 0 1.8223 1.4114 3.1213 2.3764 3.4509v4.5208c0 2.1902-0.36779 3.8997 3.5645 3.9833l9.7307 0.0986c1.312 0.03889 3.2162-1.2072 3.2162-2.4058v-9.9952c0-2.5023-1.5834-3.8151-4.755-3.7491z" fill="#d7d7d7"/>
+<ellipse cx="9.7473" cy="12.474" rx="2.6611" ry="2.698" color="#000000"/>
+</g>
+<g transform="matrix(.64512 0 0 .64431 1.1188 -.20107)">
+<g transform="translate(.17678 .17678)">
+<circle transform="matrix(.44445 0 0 .44445 2.8333 18.056)" cx="3.75" cy="32.5" r="1.125" color="#000000"/>
+<circle transform="matrix(.44445 0 0 .44445 4.8333 18.056)" cx="3.75" cy="32.5" r="1.125" color="#000000"/>
+<circle transform="matrix(.44445 0 0 .44445 6.8333 18.056)" cx="3.75" cy="32.5" r="1.125" color="#000000"/>
+<circle transform="matrix(.44445 0 0 .44445 8.8333 18.056)" cx="3.75" cy="32.5" r="1.125" color="#000000"/>
+<circle transform="matrix(.44445 0 0 .44445 7.8333 19.056)" cx="3.75" cy="32.5" r="1.125" color="#000000"/>
+<circle transform="matrix(.44445 0 0 .44445 5.8333 19.056)" cx="3.75" cy="32.5" r="1.125" color="#000000"/>
+<circle transform="matrix(.44445 0 0 .44445 3.8333 19.056)" cx="3.75" cy="32.5" r="1.125" color="#000000"/>
+<circle transform="matrix(.44445 0 0 .44445 2.8333 20.056)" cx="3.75" cy="32.5" r="1.125" color="#000000"/>
+<circle transform="matrix(.44445 0 0 .44445 4.8333 20.056)" cx="3.75" cy="32.5" r="1.125" color="#000000"/>
+<circle transform="matrix(.44445 0 0 .44445 6.8333 20.056)" cx="3.75" cy="32.5" r="1.125" color="#000000"/>
+<circle transform="matrix(.44445 0 0 .44445 8.8333 20.056)" cx="3.75" cy="32.5" r="1.125" color="#000000"/>
+<circle transform="matrix(.44445 0 0 .44445 7.8333 21.056)" cx="3.75" cy="32.5" r="1.125" color="#000000"/>
+<circle transform="matrix(.44445 0 0 .44445 8.8333 22.056)" cx="3.75" cy="32.5" r="1.125" color="#000000"/>
+<circle transform="matrix(.44445 0 0 .44445 6.8333 22.056)" cx="3.75" cy="32.5" r="1.125" color="#000000"/>
+<circle transform="matrix(.44445 0 0 .44445 5.8333 21.056)" cx="3.75" cy="32.5" r="1.125" color="#000000"/>
+<circle transform="matrix(.44445 0 0 .44445 4.8333 22.056)" cx="3.75" cy="32.5" r="1.125" color="#000000"/>
+<circle transform="matrix(.44445 0 0 .44445 3.8333 21.056)" cx="3.75" cy="32.5" r="1.125" color="#000000"/>
+</g>
+<circle transform="matrix(.44445 0 0 .44445 2.8333 18.056)" cx="3.75" cy="32.5" r="1.125" color="#000000"/>
+<circle transform="matrix(.44445 0 0 .44445 4.8333 18.056)" cx="3.75" cy="32.5" r="1.125" color="#000000"/>
+<circle transform="matrix(.44445 0 0 .44445 6.8333 18.056)" cx="3.75" cy="32.5" r="1.125" color="#000000"/>
+<circle transform="matrix(.44445 0 0 .44445 8.8333 18.056)" cx="3.75" cy="32.5" r="1.125" color="#000000"/>
+<circle transform="matrix(.44445 0 0 .44445 7.8333 19.056)" cx="3.75" cy="32.5" r="1.125" color="#000000"/>
+<circle transform="matrix(.44445 0 0 .44445 5.8333 19.056)" cx="3.75" cy="32.5" r="1.125" color="#000000"/>
+<circle transform="matrix(.44445 0 0 .44445 3.8333 19.056)" cx="3.75" cy="32.5" r="1.125" color="#000000"/>
+<circle transform="matrix(.44445 0 0 .44445 2.8333 20.056)" cx="3.75" cy="32.5" r="1.125" color="#000000"/>
+<circle transform="matrix(.44445 0 0 .44445 4.8333 20.056)" cx="3.75" cy="32.5" r="1.125" color="#000000"/>
+<circle transform="matrix(.44445 0 0 .44445 6.8333 20.056)" cx="3.75" cy="32.5" r="1.125" color="#000000"/>
+<circle transform="matrix(.44445 0 0 .44445 8.8333 20.056)" cx="3.75" cy="32.5" r="1.125" color="#000000"/>
+<circle transform="matrix(.44445 0 0 .44445 7.8333 21.056)" cx="3.75" cy="32.5" r="1.125" color="#000000"/>
+<circle transform="matrix(.44445 0 0 .44445 8.8333 22.056)" cx="3.75" cy="32.5" r="1.125" color="#000000"/>
+<circle transform="matrix(.44445 0 0 .44445 6.8333 22.056)" cx="3.75" cy="32.5" r="1.125" color="#000000"/>
+<circle transform="matrix(.44445 0 0 .44445 5.8333 21.056)" cx="3.75" cy="32.5" r="1.125" color="#000000"/>
+<circle transform="matrix(.44445 0 0 .44445 4.8333 22.056)" cx="3.75" cy="32.5" r="1.125" color="#000000"/>
+<circle transform="matrix(.44445 0 0 .44445 3.8333 21.056)" cx="3.75" cy="32.5" r="1.125" color="#000000"/>
+</g>
+<rect x="8.8602" y="17.84" width="2.5805" height="1.9329" rx=".32484" ry=".32444" color="#000000" stroke-width="1.2697"/>
+<rect transform="matrix(1 0 -.06153 .99811 0 0)" x="15.045" y="16.224" width="3.2487" height="4.5824" rx=".18432" ry=".18409" color="#000000" fill="#b6b6b6" stroke-width="1.2697"/>
+<rect transform="matrix(1 0 -.063636 .99797 0 0)" x="17.017" y="13.627" width="13.9" height="10.154" rx=".82944" ry=".80099" color="#000000" fill="#b6b6b6" stroke-width="1.2697"/>
+<rect transform="matrix(1 0 -.06153 .99811 0 0)" x="18.648" y="14.728" width="10.356" height="7.781" rx=".17569" ry=".17547" fill="#174992" stroke-width="1.2697"/>
+</g>
+</svg>

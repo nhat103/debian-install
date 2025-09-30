@@ -1,0 +1,31 @@
+<svg width="48" height="48" version="1" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<filter id="filter888" color-interpolation-filters="sRGB">
+<feFlood flood-color="rgb(0,0,0)" flood-opacity=".2" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="1" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="fbSourceGraphic"/>
+<feColorMatrix in="fbSourceGraphic" result="fbSourceGraphicAlpha" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+<feFlood flood-color="rgb(255,255,255)" flood-opacity=".10196" in="fbSourceGraphic" result="flood"/>
+<feComposite in="flood" in2="fbSourceGraphic" operator="out" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="1" result="offset"/>
+<feComposite in="offset" in2="fbSourceGraphic" operator="atop" result="composite2"/>
+</filter>
+<filter id="filter936" color-interpolation-filters="sRGB">
+<feFlood flood-color="rgb(0,0,0)" flood-opacity=".2" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="0.5" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+</filter>
+</defs>
+<rect x="4" y="4" width="40" height="40" rx="4.212" ry="4.212" color="#000000" fill="#6194cb" fill-rule="evenodd" filter="url(#filter888)" stroke-width="2.5"/>
+<g transform="matrix(1.9999 0 0 1.9999 2.0006 2.0002)" filter="url(#filter936)">
+<circle cx="10" cy="6" r="2" color="#000000" fill="#fff" stroke-width="1.3333"/>
+<path d="m9.9436 6.4301 1.0006 6.9903 4.9442-1.0663 1.0006 3.969 1.4715-0.41468" fill="none" stroke="#fff" stroke-width="1.0334"/>
+<path d="m8.3434 10.694c-1.3676 0.76026-2.3434 2.1705-2.3434 3.8486 0 2.455 1.9899 4.4578 4.4293 4.4578 2.3116 0 4.1585-1.8174 4.352-4.0949l-1.0687 0.24621c-0.29326 1.5906-1.6159 2.812-3.2832 2.812-1.882 0-3.3991-1.527-3.3991-3.421 0-1.1838 0.64112-2.1722 1.5451-2.7861z" color="#000000" fill="#fff" stroke-width="1.25"/>
+<path d="m10.448 10.101 4.7441-0.46206" color="#000000" fill="none" stroke="#fff" stroke-width="1.0334"/>
+</g>
+</svg>

@@ -1,0 +1,39 @@
+<svg id="SVGRoot" width="48px" height="48px" version="1.1" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<g transform="matrix(0 -.22047 .69029 0 2.0835 43.077)" fill="#acacac">
+<rect x="36.378" y="30.647" width="36.543" height="4" color="#000000" display="block"/>
+<rect x="36.378" y="33.649" width="36.543" height=".98959" color="#000000" display="block"/>
+<rect x="36.378" y="30.301" width="36.543" height="1.0227" color="#000000" display="block"/>
+<rect x="36.378" y="31.425" width="36.543" height="1.6187" color="#000000" display="block"/>
+</g>
+<g fill-rule="evenodd">
+<path d="m24.572 6.9961c-1.4246 0-2.5723 1.1569-2.5723 2.5957v11.859c0 1.2725 0.89898 2.3224 2.0918 2.5488h-0.83398c-0.69704 0-1.2578 0.56077-1.2578 1.2578v1.4844c0 0.69704 0.56077 1.2578 1.2578 1.2578h15.484c0.69704 0 1.2578-0.56077 1.2578-1.2578v-1.4844c0-0.69704-0.56077-1.2578-1.2578-1.2578h-0.83398c1.1928-0.22647 2.0918-1.2764 2.0918-2.5488v-11.859c0-1.4388-1.1477-2.5957-2.5723-2.5957h-12.855z" color="#000000" fill="#d4d4d4"/>
+<rect x="24" y="9" width="14" height="11" rx=".57143" ry=".57143" color="#000000" fill="#204a87"/>
+</g>
+<g transform="matrix(.18689 0 0 .69029 17.344 13.084)" fill="#acacac">
+<rect x="36.378" y="30.647" width="36.543" height="4" color="#000000" display="block"/>
+<rect x="36.378" y="33.649" width="36.543" height=".98959" color="#000000" display="block"/>
+<rect x="36.378" y="30.301" width="36.543" height="1.0227" color="#000000" display="block"/>
+<rect x="36.378" y="31.425" width="36.543" height="1.6187" color="#000000" display="block"/>
+</g>
+<g transform="matrix(.20503 0 0 .69029 9.1618 13.084)" fill="#acacac">
+<rect x="36.378" y="30.647" width="36.543" height="4" color="#000000" display="block"/>
+<rect x="36.378" y="33.649" width="36.543" height=".98959" color="#000000" display="block"/>
+<rect x="36.378" y="30.301" width="36.543" height="1.0227" color="#000000" display="block"/>
+<rect x="36.378" y="31.425" width="36.543" height="1.6187" color="#000000" display="block"/>
+</g>
+<g fill-rule="evenodd">
+<path d="m1 15.276v24.724h16v-24.872l-2.9437-3.1277h-10.26z" fill="#d4d4d4" stroke-width=".73206"/>
+<rect x="7.3672" y="26.367" width="7.2657" height="3.2657" color="#000000" fill="#acacac" stroke="#acacac" stroke-width=".73434"/>
+<g transform="matrix(.66429 0 0 .66968 -6.6518 11.165)" fill="#acacac" stroke="#acacac">
+<circle transform="matrix(.77981 0 0 .77353 -34.69 5.5951)" cx="66.013" cy="26.231" r="2.1718" color="#000000" stroke-width="1.4477"/>
+<circle transform="matrix(1.0086 0 0 1.0005 -.073964 -.054996)" cx="16.162" cy="25.575" r=".50508" color="#000000"/>
+</g>
+<circle cx="24.5" cy="35.5" r="1.5" color="#000000" fill="#eaeaea" stroke-width=".75"/>
+<rect x="3.4434" y="21.443" width="11.113" height="3.1132" color="#000000" fill="#acacac" stroke="#acacac" stroke-width=".88675"/>
+<rect x="3.4434" y="16.443" width="11.113" height="3.1132" color="#000000" fill="#acacac" stroke="#acacac" stroke-width=".88675"/>
+</g>
+<g transform="translate(7,10)" fill-rule="evenodd">
+<path d="m24.572 6.9961c-1.4246 0-2.5723 1.1569-2.5723 2.5957v11.859c0 1.2725 0.89898 2.3224 2.0918 2.5488h-0.83398c-0.69704 0-1.2578 0.56077-1.2578 1.2578v1.4844c0 0.69704 0.56077 1.2578 1.2578 1.2578h15.484c0.69704 0 1.2578-0.56077 1.2578-1.2578v-1.4844c0-0.69704-0.56077-1.2578-1.2578-1.2578h-0.83398c1.1928-0.22647 2.0918-1.2764 2.0918-2.5488v-11.859c0-1.4388-1.1477-2.5957-2.5723-2.5957z" color="#000000" fill="#d4d4d4"/>
+<rect x="24" y="9" width="14" height="11" rx=".57143" ry=".57143" color="#000000" fill="#204a87"/>
+</g>
+</svg>

@@ -1,0 +1,31 @@
+<svg width="22" height="22" version="1" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<filter id="filter1296" color-interpolation-filters="sRGB">
+<feFlood flood-color="rgb(0,0,0)" flood-opacity=".2" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="0.5" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="fbSourceGraphic"/>
+<feColorMatrix in="fbSourceGraphic" result="fbSourceGraphicAlpha" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+<feFlood flood-color="rgb(255,255,255)" flood-opacity=".10196" in="fbSourceGraphic" result="flood"/>
+<feComposite in="flood" in2="fbSourceGraphic" operator="out" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="0.5" result="offset"/>
+<feComposite in="offset" in2="fbSourceGraphic" operator="atop" result="composite2"/>
+</filter>
+</defs>
+<path d="m1.5244 3.0001h18.951c0.29048 0 0.52434 0.22776 0.52434 0.51066v10.849c0 0.28291-3.9415 3.6401-4.2319 3.6401h-15.244c-0.29048 0-0.52433-0.22775-0.52433-0.51066v-13.979c0-0.28291 0.23385-0.51066 0.52433-0.51066z" color="#000000" fill="#d2d2d2" filter="url(#filter1296)" stroke-width="1.25"/>
+<g>
+<path d="m2 12v5h16.714v-1.25h1.2857v-3.75z" fill="#8595bc" stroke-width="1.2677"/>
+<path d="m2 4h18v8h-18z" fill="#d0d6e5" stroke-width="1.3088"/>
+<path d="m8 7.5c0 0.81081-0.64865 1.5-1.5 1.5-0.81081 0-1.5-0.64865-1.5-1.5 0-0.81081 0.64865-1.5 1.5-1.5 0.81081 0 1.5 0.64865 1.5 1.5z" fill="#fffa6a"/>
+</g>
+<g transform="matrix(1.25 0 0 1.25 -36.499 -1.0673)" fill="#515151">
+<path d="m38.941 10.467h3.4142l0.51447-0.3259h-1.1225s1.0289-0.18623 1.1692-1.3502c0.14031-1.1639-1.5902-2.4675-1.5902-2.4675v0.046557c0.04677 0.27934 0.51447 2.2348 0.18708 2.9797-0.14031 0.6518-0.56124 0.79148-0.56124 0.79148h-2.1514l0.09354 0.3259z"/>
+<path d="m40.999 9.9544h-1.9643l2.3385-3.5384z"/>
+</g>
+<g transform="translate(0,1)">
+<circle cx="16.5" cy="15.5" r="5.5" fill="#42a1cd"/>
+<path d="m15.496 12.5-0.49927 0.5h-1.4978c-0.49927 0-0.49927 0.5-0.49927 0.5v4.0469c-2e-3 0.449 0.499 0.453 0.499 0.453h5.9913c0.62409 0 0.49927-0.5 0.49927-0.5-3e-3 -0.08209 0-4 0-4 0-0.5-0.49927-0.5-0.49927-0.5h-1.4978l-0.49926-0.5zm0.99854 1.5c0.82724 0 1.4978 0.6716 1.4978 1.5s-0.67057 1.5-1.4978 1.5c-0.82719 0-1.4978-0.6716-1.4978-1.5s0.67062-1.5 1.4978-1.5zm0 0.5c-0.5515 0-0.99854 0.44772-0.99854 1s0.44707 1 0.99854 1c0.55148 0 0.99854-0.44772 0.99854-1s-0.44706-1-0.99854-1z" fill="#fff"/>
+</g>
+</svg>

@@ -1,0 +1,33 @@
+<svg width="32" height="32" version="1" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<filter id="filter927" color-interpolation-filters="sRGB">
+<feFlood flood-color="rgb(0,0,0)" flood-opacity=".2" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="1" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+</filter>
+<filter id="filter939" color-interpolation-filters="sRGB">
+<feFlood flood-color="rgb(0,0,0)" flood-opacity=".2" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="1" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+</filter>
+<filter id="filter972" color-interpolation-filters="sRGB">
+<feFlood flood-color="rgb(255,255,255)" flood-opacity=".10196" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="out" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="1" result="offset"/>
+<feComposite in="offset" in2="SourceGraphic" operator="atop" result="composite2"/>
+</filter>
+</defs>
+<g filter="url(#filter972)">
+<path d="m16.284 8.0001-2.1027 2.2956s-4.1134 0.13263-7.3033 0.72782c-3.1899 0.59518-3.8777 1.6109-3.8777 2.3661v10.663h0.00816c0.18012 0.79182 1.8021 1.4159 3.8049 1.4159 2.0028 0 3.6249-0.6241 3.8049-1.4159h17.025c0.67975 0.062921 1.3567-0.71608 1.3567-1.1566v-10.994c-0.0618-0.69218-2.4276-1.5091-2.9837-1.5721h-1.4866l-1.7882-2.33z" color="#000000" display="block" fill="#555753" filter="url(#filter927)" stroke-width="1.3079"/>
+<path d="m15.2 9.6475 1.7508-1.2893 0.54334-1.3582h3.8034l0.78483 1.6652 1.6904 1.4734-1.5093-6.6307h-5.9165z" color="#000000" display="block" fill="#555753" stroke-width="1.3079"/>
+<rect x="16.615" y="3" width="5.3846" height="3" rx=".86786" ry=".98404" color="#000000" fill="#7a7a7a" stroke-width="1.3338"/>
+<ellipse cx="19.5" cy="21.5" rx="6.5002" ry="6.5" color="#000000" display="block" fill="#2e3436" filter="url(#filter939)" stroke-width="1.3"/>
+<circle cx="19.5" cy="21.5" r="4.5" color="#000000" fill="#7a7a7a" stroke-width="1.5"/>
+<rect x="11.75" y="12.75" width="1.5" height="1.5" fill="none" stroke="#7a7a7a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+</g>
+</svg>

@@ -1,0 +1,4 @@
+[Desktop Entry]
+Type=Application
+Exec=sh -c "sleep 3 && redshift -O 4100"
+NoDisplay=true

@@ -1,0 +1,32 @@
+<svg width="24" height="24" version="1" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<filter id="filter905" color-interpolation-filters="sRGB">
+<feFlood flood-color="rgb(0,0,0)" flood-opacity=".2" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="0.5" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="fbSourceGraphic"/>
+<feColorMatrix in="fbSourceGraphic" result="fbSourceGraphicAlpha" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+<feFlood flood-color="rgb(255,255,255)" flood-opacity=".10196" in="fbSourceGraphic" result="flood"/>
+<feComposite in="flood" in2="fbSourceGraphic" operator="out" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="0.5" result="offset"/>
+<feComposite in="offset" in2="fbSourceGraphic" operator="atop" result="composite2"/>
+</filter>
+<linearGradient id="linearGradient7676" x1="64.571" x2="72.857" y1="9.7143" y2="40.857" gradientTransform="matrix(.55262 0 0 .51376 -27.685 -.99077)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#dfdfdf" offset="0"/>
+<stop stop-color="#c0c0c0" offset="1"/>
+</linearGradient>
+</defs>
+<g transform="translate(.99729 2.003)">
+<g transform="translate(.0025196 -.0030093)" filter="url(#filter905)">
+<path d="M 2.2689,4.1695 5,1 h 12 l 2.7864,3.1695 z" color="#000000" fill="#6b6c69" fill-rule="evenodd" stroke-width="1.3496"/>
+<rect x="2" y="4" width="18" height="16" rx=".78281" ry=".73394" color="#000000" fill="url(#linearGradient7676)" fill-rule="evenodd" stroke-width="1.2579"/>
+<path d="m6.8243 4.0612v15" color="#000000" fill="none" stroke-width="1.2677"/>
+<path d="m20 10v9.5041c0 0.27471-0.2054 0.49586-0.46055 0.49586h-12.539l0.027936-10h12.972z" color="#000000" fill="#a40000" fill-rule="evenodd" stroke-width="1.2748"/>
+<path d="m20 10v-5.5714c0-0.23743-0.2037-0.42856-0.45671-0.42856h-12.543v6z" color="#000000" fill="#f0f0f0" fill-rule="evenodd" stroke-width="1.2421"/>
+<path d="m4.7054 1.5122h12.478l2.3327 2.2805v15.231c0 0.15416-0.12694 0.27828-0.28463 0.27828h-16.464c-0.15769 0-0.28463-0.12411-0.28463-0.27828v-15.231l2.222-2.2805z" color="#000000" fill="none" opacity=".62567" stroke-width="1.2677"/>
+</g>
+<path d="m13.499 8c-3.6028 0-6.5 2.8972-6.5 6.5s2.8972 6.5 6.5 6.5 6.5-2.8972 6.5-6.5-2.8972-6.5-6.5-6.5zm0 5.2c0.71191 0 1.3 0.58809 1.3 1.3 0 0.7119-0.58809 1.3-1.3 1.3s-1.3-0.58809-1.3-1.3 0.58809-1.3 1.3-1.3z" fill="#dfdfdf" stroke-width="1.3"/>
+</g>
+</svg>

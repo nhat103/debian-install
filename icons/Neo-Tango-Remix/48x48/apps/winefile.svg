@@ -1,0 +1,43 @@
+<svg width="48" height="48" version="1" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<filter id="filter964" color-interpolation-filters="sRGB">
+<feFlood flood-color="rgb(0,0,0)" flood-opacity=".2" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="1" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+</filter>
+<filter id="filter978" color-interpolation-filters="sRGB">
+<feFlood flood-color="rgb(0,0,0)" flood-opacity=".2" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="1" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+</filter>
+<filter id="filter990" color-interpolation-filters="sRGB">
+<feFlood flood-color="rgb(255,255,255)" flood-opacity=".10196" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="out" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="1" result="offset"/>
+<feComposite in="offset" in2="SourceGraphic" operator="atop" result="composite2"/>
+</filter>
+</defs>
+<path d="m4 8v38h40v-38z" fill="#c17d11" fill-rule="evenodd" filter="url(#filter978)" stroke-width="2.7848"/>
+<path d="m9.5189 1-5.5189 7h40l-5.5189-7z" fill="#e9b96e" fill-rule="evenodd" filter="url(#filter990)" stroke-width="3.1622"/>
+<path d="m5.456 6.7056v38.045h37.089v-38.045l-4.6933-4.3751h-27.702z" fill="none" stroke-width="2.8347"/>
+<g fill-rule="evenodd">
+<path d="m12.151 12c-0.63692 0-1.151 0.45131-1.151 1.0141v8.9719c0 0.56276 0.51413 1.0141 1.151 1.0141h6.1787c-0.18232-0.06425-0.32585-0.17107-0.32585-0.32657v-4.2759c0-0.21841 0.24418-0.39532 0.55014-0.39532h10.9c0.30594 0 0.55014 0.17691 0.55014 0.39532v4.2759c0 0.1555-0.14354 0.26231-0.32585 0.32657h6.1708c0.63692 0 1.151-0.45131 1.151-1.0141v-8.9719c0-0.56276-0.51413-1.0141-1.151-1.0141z" color="#000000" fill="#e9b96e" filter="url(#filter964)" stroke-width="2.6739"/>
+<rect x="17.5" y="36.538" width="13" height="4.4615" rx=".55224" ry=".39384" color="#000000" fill="#c17d11" stroke-width="2.6925"/>
+<path d="m12.151 30c-0.63692 0-1.151 0.45131-1.151 1.0141v8.9719c0 0.56276 0.51413 1.0141 1.151 1.0141h6.1787c-0.18232-0.06425-0.32585-0.17107-0.32585-0.32657v-4.2759c0-0.21841 0.24418-0.39532 0.55014-0.39532h10.9c0.30594 0 0.55014 0.17691 0.55014 0.39532v4.2759c0 0.1555-0.14354 0.26231-0.32585 0.32657h6.1708c0.63692 0 1.151-0.45131 1.151-1.0141v-8.9719c0-0.56276-0.51413-1.0141-1.151-1.0141z" color="#000000" fill="#e9b96e" filter="url(#filter964)" stroke-width="2.6739"/>
+</g>
+<g transform="translate(-1)">
+<circle cx="36" cy="36" r="12" opacity=".2"/>
+<circle cx="36" cy="35" r="12" fill="#48aeff"/>
+<g fill="#fff">
+<rect x="30" y="29" width="5" height="5" rx=".5" ry=".5"/>
+<rect x="37" y="29" width="5" height="5" rx=".5" ry=".5"/>
+<rect x="37" y="36" width="5" height="5" rx=".5" ry=".5"/>
+<rect x="30" y="36" width="5" height="5" rx=".5" ry=".5"/>
+</g>
+</g>
+</svg>

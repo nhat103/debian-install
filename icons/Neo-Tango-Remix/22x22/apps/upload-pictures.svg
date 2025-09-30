@@ -1,0 +1,32 @@
+<svg width="22" height="22" version="1" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<filter id="filter1296" color-interpolation-filters="sRGB">
+<feFlood flood-color="rgb(0,0,0)" flood-opacity=".2" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="0.5" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="fbSourceGraphic"/>
+<feColorMatrix in="fbSourceGraphic" result="fbSourceGraphicAlpha" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+<feFlood flood-color="rgb(255,255,255)" flood-opacity=".10196" in="fbSourceGraphic" result="flood"/>
+<feComposite in="flood" in2="fbSourceGraphic" operator="out" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="0.5" result="offset"/>
+<feComposite in="offset" in2="fbSourceGraphic" operator="atop" result="composite2"/>
+</filter>
+</defs>
+<path d="m1.5244 3.0001h18.951c0.29048 0 0.52434 0.22776 0.52434 0.51066v10.849c0 0.28291-3.9415 3.6401-4.2319 3.6401h-15.244c-0.29048 0-0.52433-0.22775-0.52433-0.51066v-13.979c0-0.28291 0.23385-0.51066 0.52433-0.51066z" color="#000000" fill="#d2d2d2" filter="url(#filter1296)" stroke-width="1.25"/>
+<g>
+<path d="m2 12v5h16.714v-1.25h1.2857v-3.75z" fill="#8595bc" stroke-width="1.2677"/>
+<path d="m2 4h18v8h-18z" fill="#d0d6e5" stroke-width="1.3088"/>
+<path d="m8 7.5c0 0.81081-0.64865 1.5-1.5 1.5-0.81081 0-1.5-0.64865-1.5-1.5 0-0.81081 0.64865-1.5 1.5-1.5 0.81081 0 1.5 0.64865 1.5 1.5z" fill="#fffa6a"/>
+</g>
+<g transform="matrix(1.25 0 0 1.25 -36.499 -1.0673)" fill="#515151">
+<path d="m38.941 10.467h3.4142l0.51447-0.3259h-1.1225s1.0289-0.18623 1.1692-1.3502c0.14031-1.1639-1.5902-2.4675-1.5902-2.4675v0.046557c0.04677 0.27934 0.51447 2.2348 0.18708 2.9797-0.14031 0.6518-0.56124 0.79148-0.56124 0.79148h-2.1514l0.09354 0.3259z"/>
+<path d="m40.999 9.9544h-1.9643l2.3385-3.5384z"/>
+</g>
+<circle cx="17" cy="17" r="5" fill="#7bbe4d" opacity=".97"/>
+<g fill="#fff">
+<rect x="16" y="15" width="2" height="6" rx=".296" ry=".388"/>
+<path transform="matrix(.4509 0 0 .3471 .64455 4.7826)" d="m36.273 23.674 6.6534 11.524h-6.6534l-6.6534-1e-6 3.3267-5.762z"/>
+</g>
+</svg>

@@ -1,0 +1,50 @@
+<svg id="SVGRoot" width="48px" height="48px" version="1.1" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<filter id="filter838" color-interpolation-filters="sRGB">
+<feFlood flood-color="rgb(0,0,0)" flood-opacity=".2" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="1" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="fbSourceGraphic"/>
+<feColorMatrix in="fbSourceGraphic" result="fbSourceGraphicAlpha" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+<feFlood flood-color="rgb(255,255,255)" flood-opacity=".10196" in="fbSourceGraphic" result="flood"/>
+<feComposite in="flood" in2="fbSourceGraphic" operator="out" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="1" result="offset"/>
+<feComposite in="offset" in2="fbSourceGraphic" operator="atop" result="composite2"/>
+</filter>
+<filter id="filter862" color-interpolation-filters="sRGB">
+<feFlood flood-color="rgb(255,255,255)" flood-opacity=".10196" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="out" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="1" result="offset"/>
+<feComposite in="offset" in2="SourceGraphic" operator="atop" result="fbSourceGraphic"/>
+<feColorMatrix in="fbSourceGraphic" result="fbSourceGraphicAlpha" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+<feFlood flood-color="rgb(0,0,0)" flood-opacity=".2" in="fbSourceGraphic" result="flood"/>
+<feComposite in="flood" in2="fbSourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="1" result="offset"/>
+<feComposite in="fbSourceGraphic" in2="offset" result="composite2"/>
+</filter>
+<filter id="filter886" color-interpolation-filters="sRGB">
+<feFlood flood-color="rgb(0,0,0)" flood-opacity=".2" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="1" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="fbSourceGraphic"/>
+<feColorMatrix in="fbSourceGraphic" result="fbSourceGraphicAlpha" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+<feFlood flood-color="rgb(255,255,255)" flood-opacity=".10196" in="fbSourceGraphic" result="flood"/>
+<feComposite in="flood" in2="fbSourceGraphic" operator="out" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="1" result="offset"/>
+<feComposite in="offset" in2="fbSourceGraphic" operator="atop" result="composite2"/>
+</filter>
+</defs>
+<g transform="matrix(1.0005 0 0 .98534 -.064332 -.21638)" fill="#b9b9b9" filter="url(#filter886)" stroke="#b9b9b9">
+<rect transform="rotate(90)" x="4.7817" y="-6.5621" width="36.545" height="3.9922" color="#000000" display="block" stroke-width="1.0055"/>
+<rect transform="rotate(90)" x="4.7866" y="-3.0314" width="36.543" height=".4677" color="#000000" display="block"/>
+<path d="m17.095 21.253c0-0.78348-0.62279-1.2571-1.4062-1.2514h-7.0938v-3.7798c0-0.78348-0.62277-1.4062-1.4062-1.4062h-4.2188c-0.78347 0-1.4062 0.62277-1.4062 1.4062v13.188c0 0.78347 0.62278 1.4062 1.4062 1.4062h4.2188c0.78348 0 1.4062-0.62278 1.4062-1.4062v-3.2376h7.0938c0.78348 0 1.4062-0.41636 1.4062-1.1998z" color="#000000" display="block"/>
+</g>
+<path d="m12.34 37.999c-0.41796-0.02213-0.83591-0.46704-0.83591-0.88982v-31.814c0-0.42278 0.41796-0.82342 0.83591-0.80127l27.334 0.951c0.41796 0.022138 0.83591 0.46704 0.83591 0.88981v13.477c0 0.49259 0.31683 1.2537 1.111 1.4235l2.9046 0.62089c0.73859 0.15789 1.042 0.89592 1.042 1.3187v15.009c0 0.42278-0.41796 0.82342-0.83591 0.80128z" fill="#b9b9b9" filter="url(#filter862)" stroke="#b9b9b9" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.0082"/>
+<path d="m11.507 39.763c0.04409 1.1524 1.0968 1.9777 2.3222 2.0623 11.555 0.79768 21.243 1.6718 21.243 1.6718 0.24761 0.07268 0.49523-0.16917 0.49523-0.48371v-34.627l-21.878-1.8641c-0.98258-0.11541-1.8057-0.46948-2.1849-1.5613z" color="#000000" display="block" fill="#6194cb" filter="url(#filter838)" stroke="#6194cb" stroke-linejoin="round" stroke-width="1.0085"/>
+</svg>

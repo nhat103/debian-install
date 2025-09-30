@@ -1,0 +1,25 @@
+<svg width="22" height="22" version="1" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<filter id="filter1231" color-interpolation-filters="sRGB">
+<feFlood flood-color="rgb(0,0,0)" flood-opacity=".2" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="0.5" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+</filter>
+<filter id="filter1243" color-interpolation-filters="sRGB">
+<feFlood flood-color="rgb(255,255,255)" flood-opacity=".2" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="out" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="0.5" result="offset"/>
+<feComposite in="offset" in2="SourceGraphic" operator="atop" result="composite2"/>
+</filter>
+</defs>
+<path d="m9.6579 5h3.3359c0.37054 0 5.0062 6.1902 5.0062 6.5625l-2.7e-4 7.7654c0 0.37234-0.2983 0.6721-0.66884 0.6721h-13.662c-0.37054 0-0.66884-0.29976-0.66884-0.6721v-7.7654c0-0.37234 5.6244-6.5625 5.995-6.5625z" color="#000000" fill="#e4e4e4" filter="url(#filter1231)"/>
+<path d="m10 12v7h-5v-7z" clip-rule="evenodd" fill-opacity=".18557" fill-rule="evenodd"/>
+<path d="m9.8877 3.9691h2.453c0.34576 0 5.7367 6.3539 5.7367 6.7266l-0.15319 8.0363c0 0.20265-0.06343 0.28835-0.22609 0.28835l-13.85 0.0063c-0.16266 0-0.25768-0.03527-0.25768-0.20013l0.09502-8.1309c0-0.37268 5.8563-6.7266 6.2021-6.7266z" color="#000000" fill="none" opacity=".3125"/>
+<path d="M 8.500425,15 C 8.77669,15 9,15.223149 9,15.497686 9,15.775 8.77669,16 8.500425,16 8.224372,16 8,15.775 8,15.497686 8.000211,15.223149 8.224372,15 8.500425,15 Z" clip-rule="evenodd" fill="#edd400" fill-rule="evenodd"/>
+<path d="m1.2757 9-0.27567 3 1 1s8.9044-7.5393 9-7.6133l8 7.6133 1-1-0.71144-3-8.2886-8c-3.233 2.6369-6.488 5.367-9.7243 8z" fill="#ef2929" filter="url(#filter1243)"/>
+<path d="m12.236 12.05h3.989c0.34003 0 0.61378 0.27374 0.61378 0.61378l-0.0035 4.0063c0 0.34003-0.26313 0.55862-0.60316 0.55862h-3.9961c-0.34003 0-0.61378-0.27374-0.61378-0.61378v-3.9511c0-0.34003 0.27374-0.61378 0.61378-0.61378z" color="#000000" fill="none" opacity=".31818"/>
+<rect x="12" y="12" width="4" height="5" rx=".15249" ry=".19136" color="#000000" fill="#3465a4"/>
+</svg>

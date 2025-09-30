@@ -1,0 +1,23 @@
+<svg width="48" height="48" version="1" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<filter id="filter886" color-interpolation-filters="sRGB">
+<feFlood flood-color="rgb(0,0,0)" flood-opacity=".2" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="1" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="fbSourceGraphic"/>
+<feColorMatrix in="fbSourceGraphic" result="fbSourceGraphicAlpha" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+<feFlood flood-color="rgb(255,255,255)" flood-opacity=".10196" in="fbSourceGraphic" result="flood"/>
+<feComposite in="flood" in2="fbSourceGraphic" operator="out" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="1" result="offset"/>
+<feComposite in="offset" in2="fbSourceGraphic" operator="atop" result="composite2"/>
+</filter>
+</defs>
+<g filter="url(#filter886)">
+<g transform="matrix(1.4286 0 0 1.4286 1.1429 1.1427)" fill-rule="evenodd" stroke-width="1.7365">
+<path d="m2 5.1491c5.7722-4.5405 15.819 1.3499 21.7 0v17.426c-5.6634 2.0861-15.166-4.4177-21.7 0z" color="#000000" display="block" fill="#75507b"/>
+<path d="m8.3 12.149c5.7722-4.5405 15.819 1.3499 21.7 0v17.426c-5.6634 2.0861-15.166-4.4177-21.7 0z" color="#000000" display="block" fill="#73d216"/>
+</g>
+</g>
+</svg>

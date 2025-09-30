@@ -1,0 +1,40 @@
+<svg width="32" height="32" version="1" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<filter id="filter988" color-interpolation-filters="sRGB">
+<feFlood flood-color="rgb(0,0,0)" flood-opacity=".2" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="1" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+</filter>
+<filter id="filter1123" color-interpolation-filters="sRGB">
+<feFlood flood-color="rgb(255,255,255)" flood-opacity=".10196" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="out" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="1" result="offset"/>
+<feComposite in="offset" in2="SourceGraphic" operator="atop" result="composite2"/>
+</filter>
+</defs>
+<rect x="4" y="10.75" width="24" height="17.25" rx=".64345" ry=".62055" color="#000000" fill="#d3d7cf" fill-opacity=".99608" fill-rule="evenodd" filter="url(#filter988)" stroke-width="1.9578"/>
+<rect x="3.9665" y="10.72" width="23.434" height="16.868" rx="0" ry="0" color="#000000" fill="none" stroke-width="1.9882"/>
+<rect x="7.9098" y="18.301" width="3.2065" height="2.3502" color="#000000" fill="none" stroke-width="1.9882"/>
+<path d="m4 12-2.6544-7h29.327l-2.6721 7z" color="#000000" fill="#a5a5a5" stroke-width="1.8708"/>
+<rect y="5" width="32" height="1.9799" color="#000000" fill="#ddd" filter="url(#filter1123)" stroke-width="1.9899"/>
+<rect x="15" y="17" width="2" height="6" color="#000000" fill="#677579" stroke-width="2"/>
+<rect x="22" y="16.938" width="2" height="6.0625" color="#000000" fill="#677579" stroke-width="2.0104"/>
+<rect x="6" y="17" width="6" height="3" color="#000000" fill="#eeeeec" stroke-width="2.1214"/>
+<rect x="8" y="20.812" width="2" height="6.1875" color="#000000" fill-opacity=".2" stroke-width="2.031"/>
+<rect x="8" y="19.812" width="2" height="6.1875" color="#000000" fill="#677579" stroke-width="2.031"/>
+<g stroke-width="2.1214">
+<rect x="13" y="24" width="6" height="3" color="#000000" fill-opacity=".2"/>
+<rect x="13" y="23" width="6" height="3" color="#000000" fill="#eeeeec"/>
+<rect x="20" y="24" width="6" height="3" color="#000000" fill-opacity=".2"/>
+<rect x="20" y="23" width="6" height="3" color="#000000" fill="#eeeeec"/>
+</g>
+<g stroke-width="1.9999">
+<rect x="6" y="10" width="4" height="2" rx=".71909" ry="1" color="#000000" fill-opacity=".2"/>
+<rect x="6" y="9" width="4" height="2" rx=".71909" ry="1" color="#000000" fill="#ddd"/>
+<rect x="22" y="10" width="4" height="2" rx=".71909" ry="1" color="#000000" fill-opacity=".2"/>
+<rect x="22" y="9" width="4" height="2" rx=".71909" ry="1" color="#000000" fill="#ddd"/>
+</g>
+</svg>

@@ -1,0 +1,18 @@
+<svg width="32" height="32" version="1" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<filter id="filter866" color-interpolation-filters="sRGB">
+<feFlood flood-color="rgb(0,0,0)" flood-opacity=".2" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="1" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="fbSourceGraphic"/>
+<feColorMatrix in="fbSourceGraphic" result="fbSourceGraphicAlpha" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+<feFlood flood-color="rgb(255,255,255)" flood-opacity=".10196" in="fbSourceGraphic" result="flood"/>
+<feComposite in="flood" in2="fbSourceGraphic" operator="out" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="1" result="offset"/>
+<feComposite in="offset" in2="fbSourceGraphic" operator="atop" result="composite2"/>
+</filter>
+</defs>
+<path d="m5.8406 3.3162c-0.21333-0.011247-0.4181 0.15387-0.49019 0.35748-0.0099688-0.024925-0.025719-0.040143-0.034875-0.066418v20.079c0 0.0026 0.00189 0.0052 0.00198 0.0078v1.6507c0.027637 0.71982 0.68889 1.2345 1.4571 1.2873 7.2429 0.49826 13.6 1.0451 13.6 1.0451 0.15521 0.0454 0.31029-0.1063 0.31-0.30278v-2.69l5.475 0.17386c0.26218 0.01382 0.52507-0.23601 0.52507-0.50008v-9.3746c0-0.26412-0.18962-0.72574-0.65294-0.82436l-1.652-0.38675c-0.49814-0.10602-0.69556-0.58115-0.69556-0.88882v-8.4195c0-0.26406-0.26288-0.54096-0.52507-0.55478l-17.318-0.59384z" fill="#b9b9b9" filter="url(#filter866)" stroke="#b9b9b9" stroke-linecap="round" stroke-linejoin="round" stroke-width=".63107"/>
+</svg>

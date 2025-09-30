@@ -1,0 +1,25 @@
+<svg width="64" height="64" version="1" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<filter id="filter886" color-interpolation-filters="sRGB">
+<feFlood flood-color="rgb(0,0,0)" flood-opacity=".2" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="1" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+</filter>
+<filter id="filter898" color-interpolation-filters="sRGB">
+<feFlood flood-color="rgb(255,255,255)" flood-opacity=".10196" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="out" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="1" result="offset"/>
+<feComposite in="offset" in2="SourceGraphic" operator="atop" result="composite2"/>
+</filter>
+</defs>
+<path d="m25.695 2c-3.4796 0-21.695 17.406-21.695 19.333l9.9999 11.6h36l9.9999-11.6c-0.005216-2.0451-16.691-19.333-20-19.333z" fill="#adb0aa" fill-rule="evenodd" filter="url(#filter898)" stroke-width="3.9327"/>
+<g stroke-width="2.7809">
+<path d="m47.999 22-39.998 9.6192v16.781h47.219z" fill="#fff"/>
+<path d="m4 21.333v38.667l20-16z" fill="#dde1d9"/>
+<path d="m60 21.333-20 22.667 20 16z" fill="#dde1d9"/>
+<path d="m4 60h56l-20-20h-16z" fill="#adb0aa" filter="url(#filter886)"/>
+</g>
+</svg>

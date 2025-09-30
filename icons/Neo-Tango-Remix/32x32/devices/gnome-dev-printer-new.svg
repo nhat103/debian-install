@@ -1,0 +1,29 @@
+<svg width="32" height="32" version="1" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<filter id="filter1164" color-interpolation-filters="sRGB">
+<feFlood flood-color="rgb(255,255,255)" flood-opacity=".10196" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="out" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="1" result="offset"/>
+<feComposite in="offset" in2="SourceGraphic" operator="atop" result="composite2"/>
+</filter>
+</defs>
+<path d="m3 28v0.64843c0 0.74866 0.51656 1.3516 1.158 1.3516h23.684c0.64143 0 1.158-0.60292 1.158-1.3516v-0.64843z" fill-opacity=".2" filter="url(#filter1164)" stroke-width="1.8346"/>
+<path d="m3 27v0.64843c0 0.74866 0.51656 1.3516 1.158 1.3516h23.684c0.64143 0 1.158-0.60292 1.158-1.3516v-0.64843z" fill="#8e8d87" filter="url(#filter1164)" stroke-width="1.8346"/>
+<path d="m4.4789 15h23.041c0.26293 0 0.5989 0.17631 0.80609 0.44292 0.20718 0.26662 1.1858 1.597 1.4056 1.8808 0.21984 0.28391 0.26832 0.55302 0.26832 0.90312v7.7641c0 0.55897-0.49985 1.0089-1.1208 1.0089h-25.758c-0.6209 0-1.1208-0.44999-1.1208-1.0089v-7.3892c0-0.30226 0.069076-1.1107 0.30483-1.3865 0.2975-0.34814 1.0956-1.559 1.3061-1.8158 0.2105-0.25675 0.59704-0.3996 0.86914-0.3996z" color="#000000" fill="#dcdcda" filter="url(#filter1164)" stroke-width="1.7078"/>
+<path d="m6.033 15.269c-0.30325 0-0.67543 0.0559-0.82639 0.35106l-1.1463 1.4776c-0.17019 0.33273 0.020461 0.90236 0.56281 0.90236h22.707c0.79016 0 0.73574-0.72147 0.56281-1.0286l-0.88448-1.1304c-0.19335-0.34342-0.44535-0.57202-0.92823-0.57202z" fill="#fbfbfb" fill-rule="evenodd" filter="url(#filter1164)" stroke-width="1.809"/>
+<path d="m4.8026 15.149h22.418c0.2497 0 0.56879 0.18851 0.76554 0.4736 0.19677 0.2851 0.88517 1.4022 1.0939 1.7058 0.20877 0.30352 0.29743 0.59134 0.29743 0.9657v7.7938c0 0.5977-0.09132 0.86296-0.681 0.86296h-25.309c-0.58968 0-0.72359-0.26527-0.72359-0.86296v-7.7938c0-0.3232 0.15079-0.78664 0.37471-1.0817 0.28252-0.37226 0.73924-1.3616 0.93914-1.6362 0.1999-0.27454 0.56702-0.42728 0.82542-0.42728z" color="#000000" fill="none" filter="url(#filter1164)" stroke-width="1.75"/>
+<rect x="4" y="20" width="24" height="3" rx="1.1833" ry="1.2373" fill="#f7f6f5" filter="url(#filter1164)" stroke-width="1.7678"/>
+<path d="m29.306 17.949h-26.618" fill="none" filter="url(#filter1164)" stroke-width="1.75"/>
+<path d="m8.7263 1.9998h14.549c0.40166 0 0.72504 0.35981 0.72504 0.80677v13.193h-15.999v-13.193c-0.02355-0.5716 0.55946-0.64811 0.72508-0.80677z" color="#000000" display="block" fill="#e0e0e0" filter="url(#filter1164)" stroke-width="1.7078"/>
+<g fill-opacity=".2924" filter="url(#filter1164)" stroke-width="1.8708">
+<rect x="9" y="4" width="14" height="2" color="#000000"/>
+<rect x="9.1" y="8" width="7" height="2" color="#000000"/>
+<rect x="9" y="12" width="14" height="2" color="#000000"/>
+</g>
+<path d="M 5.1347656,21.5 A 1,0.99978 0 0 0 5,22 1,0.99978 0 0 0 6,23 1,0.99978 0 0 0 7,22 1,0.99978 0 0 0 6.8652344,21.501953 1,0.99978 0 0 1 6,22 1,0.99978 0 0 1 5.1347656,21.5 Z" fill-opacity=".2" filter="url(#filter1164)" stroke-width="1.9996"/>
+<ellipse cx="6" cy="21" rx="1" ry=".99978" fill="#9f9f9f" filter="url(#filter1164)" stroke-width="1.9996"/>
+<circle cx="23" cy="24" r="8" opacity=".2"/>
+<circle cx="23" cy="23" r="8" fill="#009545"/>
+<path d="m22 18v4h-4v2h4v4h2v-4h4v-2h-4v-4z" fill="#fff"/>
+</svg>

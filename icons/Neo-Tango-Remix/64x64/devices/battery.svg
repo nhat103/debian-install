@@ -1,0 +1,25 @@
+<svg width="64" height="64" version="1" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<filter id="filter907" color-interpolation-filters="sRGB">
+<feFlood flood-color="rgb(255,255,255)" flood-opacity=".10196" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="out" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="0.5" result="offset"/>
+<feComposite in="offset" in2="SourceGraphic" operator="atop" result="fbSourceGraphic"/>
+<feColorMatrix in="fbSourceGraphic" result="fbSourceGraphicAlpha" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+<feFlood flood-color="rgb(0,0,0)" flood-opacity=".2" in="fbSourceGraphic" result="flood"/>
+<feComposite in="flood" in2="fbSourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="0.5" result="offset"/>
+<feComposite in="fbSourceGraphic" in2="offset" result="composite2"/>
+</filter>
+</defs>
+<g transform="matrix(2 0 0 2 0 -.00034286)" filter="url(#filter907)" stroke-width="1.3874">
+<path d="m15.903 2.8015c-6.0133 0-10.903 2.1396-10.903 4.7716v17.655c0 2.632 4.8894 4.7716 10.903 4.7716 6.0133 0 11.097-2.1396 11.097-4.7716v-17.655c0-2.632-5.0841-4.7716-11.097-4.7716z" color="#000000" display="block" fill="#7e807a"/>
+<path d="m15.903 2.7644c-6.0133 0-10.903 2.1736-10.903 4.8475v5.2424c0 2.6738 4.8894 4.5151 10.903 4.5151 6.0133 0 11.097-1.8411 11.097-4.5151v-5.2424c0-2.6738-5.0841-4.8475-11.097-4.8475z" color="#000000" display="block" fill="#f79403"/>
+<ellipse cx="15.949" cy="7.559" rx="10.517" ry="4.2694" color="#000000" display="block" fill="#fed496"/>
+<path d="m16.11 2c-1.8316 0-4.2356 0.51581-4.2356 1.1503v1.8994c0 0.63452 2.4039 1.1503 4.2356 1.1503 1.8316 0 4.0336-0.51581 4.0336-1.1503v-1.8994c0-0.63452-2.2019-1.1503-4.0336-1.1503z" color="#000000" display="block" fill="#fcaf3e"/>
+<ellipse cx="16.028" cy="3.4392" rx="3.1981" ry=".86051" color="#000000" display="block" fill="#fed496"/>
+<path d="m11.875 5.0486v1c0 0.63452 2.4027 1.1504 4.2344 1.1504 1.8316 0 4.0352-0.51587 4.0352-1.1504v-1c0 0.63452-2.2035 1.1504-4.0352 1.1504-1.8316-1e-7 -4.2344-0.51587-4.2344-1.1504z" color="#000000" display="block" fill-opacity=".2"/>
+</g>
+</svg>

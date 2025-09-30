@@ -1,0 +1,95 @@
+<svg width="48" height="48" version="1" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<filter id="filter912" color-interpolation-filters="sRGB">
+<feFlood flood-color="rgb(0,0,0)" flood-opacity=".2" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="1" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+</filter>
+<filter id="filter924" color-interpolation-filters="sRGB">
+<feFlood flood-color="rgb(0,0,0)" flood-opacity=".2" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="1" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+</filter>
+<filter id="filter936" color-interpolation-filters="sRGB">
+<feFlood flood-color="rgb(0,0,0)" flood-opacity=".2" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="1" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+</filter>
+<filter id="filter948" color-interpolation-filters="sRGB">
+<feFlood flood-color="rgb(0,0,0)" flood-opacity=".2" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="1" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+</filter>
+<filter id="filter960" color-interpolation-filters="sRGB">
+<feFlood flood-color="rgb(0,0,0)" flood-opacity=".2" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="1" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+</filter>
+<filter id="filter972" color-interpolation-filters="sRGB">
+<feFlood flood-color="rgb(0,0,0)" flood-opacity=".2" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="1" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+</filter>
+<filter id="filter984" color-interpolation-filters="sRGB">
+<feFlood flood-color="rgb(0,0,0)" flood-opacity=".2" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="1" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+</filter>
+<filter id="filter996" color-interpolation-filters="sRGB">
+<feFlood flood-color="rgb(0,0,0)" flood-opacity=".2" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="1" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+</filter>
+<filter id="filter1008" color-interpolation-filters="sRGB">
+<feFlood flood-color="rgb(0,0,0)" flood-opacity=".2" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="1" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+</filter>
+<filter id="filter1020" color-interpolation-filters="sRGB">
+<feFlood flood-color="rgb(0,0,0)" flood-opacity=".2" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="1" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+</filter>
+<filter id="filter1044" color-interpolation-filters="sRGB">
+<feFlood flood-color="rgb(255,255,255)" flood-opacity=".10196" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="out" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="1" result="offset"/>
+<feComposite in="offset" in2="SourceGraphic" operator="atop" result="composite2"/>
+</filter>
+</defs>
+<g filter="url(#filter1044)">
+<g fill-rule="evenodd">
+<path d="m10.607 17.429c-6.2036 4.5023-7.5093 10.657-6.081 14.255 1.4551 3.665 3.9158 4.3166 6.8544 4.3166h9.7936c2.7754 0 5.5264-1.1701 6.5338-4.503 0.95642-3.1647-0.24558-9.1911-6.4489-14.068z" color="#000000" fill="#727e0a" filter="url(#filter912)" stroke-width="2.5303"/>
+<path d="m14.184 19.566s-1.9526 1.5954-1.7845 3.5173c-1.8527-1.7303-1.9059-5.046-1.9059-5.046z" color="#000000" fill="#9db029" filter="url(#filter924)" stroke-width="2.4462"/>
+<path d="m17.295 19.546s1.9526 1.5954 1.7845 3.5173c1.8527-1.7303 1.9059-5.046 1.9059-5.046z" color="#000000" fill="#9db029" filter="url(#filter936)" stroke-width="2.4462"/>
+<ellipse cx="15.5" cy="12.5" rx="7.5" ry="7.5004" color="#000000" fill="#966416" filter="url(#filter948)" stroke-width="2.5001"/>
+<path d="m26.607 25.429c-6.2036 4.5023-7.5093 10.657-6.081 14.255 1.4551 3.665 3.9158 4.3166 6.8544 4.3166h9.7936c2.7754 0 5.5264-1.1701 6.5338-4.503 0.95641-3.1647-0.24558-9.1911-6.4489-14.068z" color="#000000" fill="#3b74bc" filter="url(#filter960)" stroke-width="2.5303"/>
+<path d="m35.527 27.679c-2.2163 3.0497-3.4827 13.454-3.4827 13.454s-1.2684-10.409-4.1181-13.279z" color="#000000" fill="#fff" filter="url(#filter972)" stroke-width="2.4695"/>
+<path d="m30.464 27.53s-1.9526 1.5954-1.7845 3.5173c-1.8527-1.7303-1.9059-5.046-1.9059-5.046z" color="#000000" fill="#729fcf" filter="url(#filter984)" stroke-width="2.4462"/>
+<path d="m33.576 27.509s1.9526 1.5954 1.7845 3.5173c1.8527-1.7303 1.9059-5.046 1.9059-5.046z" color="#000000" fill="#729fcf" filter="url(#filter996)" stroke-width="2.4462"/>
+<circle cx="32" cy="20" r="8" color="#000000" fill="#df9725" filter="url(#filter1008)" stroke-width="2.6667"/>
+</g>
+<ellipse cx="12.129" cy="21.516" rx="7.549" ry="7.5494" color="#000000" fill="none" filter="url(#filter1020)" opacity=".1962" stroke-width="2.5"/>
+</g>
+</svg>

@@ -1,0 +1,14 @@
+<svg width="24" height="24" version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<style id="current-color-scheme" type="text/css">.ColorScheme-Text { color:#444444; } .ColorScheme-Highlight { color:#4285f4; }</style>
+</defs>
+<g transform="translate(4 3.9999)">
+<g fill="#444">
+<path d="m13 2a1 1 0 0 0-1 1 1 1 0 0 0 1 1 1 1 0 0 0 1-1 1 1 0 0 0-1-1z" color="#444444"/>
+<path d="m13 5a1 1 0 0 0-1 1 1 1 0 0 0 1 1 1 1 0 0 0 1-1 1 1 0 0 0-1-1z" color="#444444"/>
+<path d="m13 8a1 1 0 0 0-1 1 1 1 0 0 0 1 1 1 1 0 0 0 1-1 1 1 0 0 0-1-1z" color="#444444"/>
+<path d="m4.3355 9c-2.3588 1.4457-2.6532 3.4032-2.0914 4.5619 0.58356 1.2033 1.5717 1.4229 2.7502 1.4322l1.9959 6e-3h0.019491l1.9959-0.0059c1.1785-0.0093 2.1667-0.22892 2.7502-1.4322 0.56185-1.1585 0.26745-3.116-2.0914-4.5619-0.55871 0.63238-1.6176 1.0032-2.6645 1.0138-1.0469-0.01054-2.1057-0.38136-2.6645-1.0138z" color="#000000" fill-rule="evenodd" stroke-width=".98201"/>
+<circle cx="7" cy="6" r="3" fill-rule="evenodd" stroke-width="1.4216"/>
+</g>
+</g>
+</svg>

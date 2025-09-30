@@ -1,0 +1,33 @@
+<svg width="24" height="24" version="1" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<filter id="filter905-8" color-interpolation-filters="sRGB">
+<feFlood flood-color="rgb(255,255,255)" flood-opacity=".10196" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="out" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="0.5" result="offset"/>
+<feComposite in="offset" in2="SourceGraphic" operator="atop" result="fbSourceGraphic"/>
+<feColorMatrix in="fbSourceGraphic" result="fbSourceGraphicAlpha" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+<feFlood flood-color="rgb(0,0,0)" flood-opacity=".2" in="fbSourceGraphic" result="flood"/>
+<feComposite in="flood" in2="fbSourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="0.5" result="offset"/>
+<feComposite in="fbSourceGraphic" in2="offset" result="composite2"/>
+</filter>
+<filter id="filter881-2" color-interpolation-filters="sRGB">
+<feFlood flood-color="rgb(0,0,0)" flood-opacity=".2" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="0.5" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="fbSourceGraphic"/>
+<feColorMatrix in="fbSourceGraphic" result="fbSourceGraphicAlpha" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+<feFlood flood-color="rgb(255,255,255)" flood-opacity=".10196" in="fbSourceGraphic" result="flood"/>
+<feComposite in="flood" in2="fbSourceGraphic" operator="out" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="0.5" result="offset"/>
+<feComposite in="offset" in2="fbSourceGraphic" operator="atop" result="composite2"/>
+</filter>
+</defs>
+<path d="m3.6828 17.996c-0.21488-0.021337-0.42977-0.25386-0.42977-0.46504v-15.892c0-0.21118 0.21488-0.40103 0.42977-0.37969l13.633 1.3764c0.21488 0.021341 0.42976 0.25386 0.42976 0.46504v6.4938c0 0.30141 0.19398 0.61711 0.4908 0.71605l2.1345 0.56297c0.25925 0.08638 0.37604 0.27926 0.37604 0.67092v7.624c0 0.21118-0.21488 0.40103-0.42976 0.37969z" color="#000000" fill="#b9b9b9" filter="url(#filter905-8)" stroke="#b9b9b9" stroke-linecap="round" stroke-linejoin="round" stroke-width=".50812"/>
+<path d="m3.4631 1.3832c-0.10601 0.051979-0.21202 0.15594-0.21202 0.31189v16.738c0 0.10397 0.063318 0.26189 0.13253 0.35586 0.19628 0.26653 0.307 0.32907 0.48802 0.44863 1.8625 1.2301 9.6634 2.9172 9.6634 2.9172 0.106 0.05198 0.21202-0.05198 0.21202-0.20792v-17.55c0-0.15594-8.0743-0.83213-9.669-2.4437l-0.61543-0.62221z" color="#000000" display="block" fill="#6194cb" filter="url(#filter881-2)" stroke="#6194cb" stroke-linejoin="round" stroke-width=".50401"/>
+<path d="m6.3533 8.5232c-0.1927-0.05547-0.35331 0.11839-0.35331 0.39064v4.4931c0 0.27225 0.16061 0.539 0.35331 0.59446l3.4536 0.99388c0.069129 0.0198 0.16694-0.03004 0.13576-0.01474 0.019779-0.0095 0.038129-0.02153 0.057286-0.03451l3.32e-4 9.2e-5c0.03801-0.0258 0.08091-0.05895 0.12947-0.09857 0.09759-0.07959 0.21692-0.1857 0.33477-0.29492 0.11781-0.10918 0.23331-0.22085 0.32284-0.3155 0.04492-0.04746 0.08301-0.09073 0.11391-0.12994 0.01436-0.01822 0.02966-0.03754 0.04536-0.06389-0.01424 0.02393 0.0022 0.0092 0.02416-0.03803 0.02196-0.04718 0.02914-0.10856 0.02914-0.165v-3.4876c0-0.27225-0.16028-0.53844-0.35298-0.5939zm0.11556 0.6897 4.0621 1.1691v2.718l-0.74279-0.21378 0.096686-0.0561-0.34039-0.09804s0.31177 0.01188 0.3543-0.46034c0.042529-0.4722-0.48179-1.1654-0.48179-1.1654v0.01947c6.842e-4 0.0058 0.00407 0.03027 0.00529 0.03908l-0.70001 1.2528 0.59534 0.17134 0.10961-1.3894c0.030971 0.21942 0.13675 0.92612 0.046357 1.1824-0.042528 0.25906-0.17021 0.28062-0.17021 0.28062l-0.65199-0.18764 0.01755 0.08894-2.2003-0.63322zm0.85 0.59185c-0.32609-0.09386-0.58114 0.20101-0.58114 0.62734 0 0.44571 0.26923 0.87202 0.58114 0.96188 0.32608 0.09384 0.58114-0.20101 0.58114-0.62734 0-0.4457-0.26923-0.87203-0.58114-0.96188z" fill="#fff" opacity=".75" stroke-width=".42259"/>
+</svg>

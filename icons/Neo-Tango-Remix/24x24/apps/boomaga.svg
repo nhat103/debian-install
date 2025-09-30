@@ -1,0 +1,42 @@
+<svg width="24" height="24" version="1" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<filter id="filter1030" color-interpolation-filters="sRGB">
+<feFlood flood-color="rgb(0,0,0)" flood-opacity=".2" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="0.5" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="fbSourceGraphic"/>
+<feColorMatrix in="fbSourceGraphic" result="fbSourceGraphicAlpha" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+<feFlood flood-color="rgb(255,255,255)" flood-opacity=".10196" in="fbSourceGraphic" result="flood"/>
+<feComposite in="flood" in2="fbSourceGraphic" operator="out" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="0.5" result="offset"/>
+<feComposite in="offset" in2="fbSourceGraphic" operator="atop" result="composite2"/>
+</filter>
+</defs>
+<g transform="translate(.99942 1.0005)">
+<g filter="url(#filter1030)">
+<g stroke-width="1.25">
+<path d="m1.6099 19.712v0.41743c0 0.48195 0.37252 0.87008 0.83508 0.87008h17.08c0.46257 0 0.83508-0.38813 0.83508-0.87008v-0.41743z" fill="#8e8d87"/>
+<path d="m2.7712 11h16.458c0.18781 0 0.42779 0.13223 0.57578 0.33219s0.84699 1.1977 1.004 1.4106c0.15703 0.21293 0.19166 0.41476 0.19166 0.67733v5.823c0 0.41922-0.35704 0.7567-0.80056 0.7567h-18.399c-0.4435 0-0.80056-0.33749-0.80056-0.7567v-5.5418c0-0.22669 0.04934-0.833 0.21774-1.0399 0.2125-0.2611 0.78256-1.1692 0.93291-1.3618 0.15036-0.19256 0.42646-0.2997 0.62082-0.2997z" color="#000000" fill="#dcdcda"/>
+<path d="m3.7325 11.212c-0.22113 0-0.49252 0.0366-0.6026 0.22986l-0.83586 0.96751c-0.1241 0.21786 0.01492 0.59083 0.4104 0.59083h16.558c0.57618 0 0.5365-0.47239 0.4104-0.67351l-0.64496-0.74012c-0.14099-0.22486-0.32475-0.37454-0.67686-0.37454z" fill="#fbfbfb" fill-rule="evenodd"/>
+<path d="m3.0024 11.106h16.013c0.17836 0 0.40628 0.13465 0.54682 0.33829 0.14055 0.20364 0.63227 1.0016 0.78139 1.2184s0.21245 0.42239 0.21245 0.68979v5.567c0 0.42693-0.06523 0.6164-0.48643 0.6164h-18.078c-0.4212 0-0.51685-0.18948-0.51685-0.6164v-5.567c0-0.23086 0.10771-0.56189 0.26765-0.77262 0.2018-0.2659 0.52803-0.97258 0.67082-1.1687 0.14279-0.1961 0.40502-0.3052 0.58959-0.3052z" color="#000000" fill="none"/>
+<path d="m5.5437 1.9999h10.912c0.30126 0 0.5438 0.25701 0.5438 0.57627v9.4239h-12v-9.4239c-0.017663-0.40829 0.41961-0.46294 0.54383-0.57627z" color="#000000" display="block" fill="#e0e0e0"/>
+<rect x="4.9012" y="2.743" width="12.194" height="9.2953" rx=".086227" ry=".087236" color="#000000" display="block" fill="none"/>
+<rect x="2" y="15" width="18" height="2" rx=".88748" ry=".82484" fill="#f7f6f5"/>
+</g>
+<ellipse cx="3.5" cy="15.5" rx=".5" ry=".49989" fill="#9f9f9f" stroke-width=".99978"/>
+<path d="m20.505 13.106h-19.013" fill="none" stroke-width="1.25"/>
+<g fill-opacity=".2924" stroke-width="1.118">
+<rect x="6" y="4" width="10" height="1" color="#000000"/>
+<rect x="6" y="6" width="5" height="1" color="#000000"/>
+<rect x="6" y="9" width="10" height="1" color="#000000"/>
+</g>
+</g>
+<circle cx="16" cy="16" r="6" fill="#c03630"/>
+<g transform="translate(-1,-1)" fill="#fff">
+<path d="m15 20.5-2-2.5 2-2.5c-2e-3 0 0 1.2037 0 1.5h2v2h-2z"/>
+<path d="m19 18.5 2-2.5-2-2.5c2e-3 0 0 1.2037 0 1.5h-2v2h2z"/>
+</g>
+</g>
+</svg>

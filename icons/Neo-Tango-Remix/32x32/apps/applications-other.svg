@@ -1,0 +1,45 @@
+<svg width="32" height="32" version="1" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<filter id="filter934" color-interpolation-filters="sRGB">
+<feFlood flood-color="rgb(0,0,0)" flood-opacity=".2" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="1" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+</filter>
+<filter id="filter947" color-interpolation-filters="sRGB">
+<feFlood flood-color="rgb(0,0,0)" flood-opacity=".2" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="1" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+</filter>
+<filter id="filter959" color-interpolation-filters="sRGB">
+<feFlood flood-color="rgb(0,0,0)" flood-opacity=".2" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="1" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+</filter>
+<filter id="filter971" color-interpolation-filters="sRGB">
+<feFlood flood-color="rgb(0,0,0)" flood-opacity=".2" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="1" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+</filter>
+<filter id="filter989" color-interpolation-filters="sRGB">
+<feFlood flood-color="rgb(255,255,255)" flood-opacity=".10196" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="out" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="1" result="offset"/>
+<feComposite in="offset" in2="SourceGraphic" operator="atop" result="composite2"/>
+</filter>
+</defs>
+<g transform="translate(-1)" filter="url(#filter989)" stroke-width="1.875">
+<path d="m17 31-15-15 15-15 15 15z" fill="#fcaf3e" filter="url(#filter971)"/>
+<path d="m28.767 13.406-0.55631 0.77157c-0.4797-0.20227-0.97983-0.36543-1.4963-0.48582l0.0044-1.1879c-0.32228-0.06656-0.65018-0.11761-0.98247-0.15394l-0.36296 1.1314c-0.25917-0.02144-0.52111-0.03325-0.786-0.03327-0.26459 0-0.52668 0.0117-0.78586 0.03327l-0.36288-1.1314c-0.33244 0.03634-0.66022 0.08742-0.98244 0.15397l0.0045 1.1881c-0.5166 0.12026-1.0166 0.28342-1.4963 0.48567l-0.69495-0.9639c-0.30311 0.13718-0.59834 0.28822-0.88511 0.4524l0.37126 1.1285c-0.44992 0.2729-0.87518 0.58257-1.2712 0.92509l-0.95836-0.70196c-0.24532 0.22342-0.48014 0.45824-0.70342 0.70357l0.70181 0.95821c-0.34265 0.39607-0.65234 0.82118-0.92523 1.2714l-1.1285-0.37143c-0.16418 0.28691-0.31538 0.58229-0.45225 0.88526l0.96376 0.6948c-0.20227 0.4797-0.36543 0.97983-0.48597 1.4965l-1.1878-0.0044c-0.06655 0.32223-0.11762 0.65014-0.15382 0.9826l1.1313 0.36294c-0.02174 0.25904-0.03328 0.52114-0.03328 0.78588 0 0.26472 0.0118 0.52668 0.03327 0.786l-1.1313 0.36296c0.03604 0.33229 0.08739 0.66006 0.15364 0.98242l1.1881-0.0045c0.1204 0.51663 0.28355 1.0167 0.48567 1.4963l-0.96376 0.69484c0.1369 0.30311 0.28822 0.59834 0.45211 0.88524l1.1287-0.3714c0.2729 0.45007 0.58257 0.87518 0.92509 1.2711l-0.70181 0.95838c0.2097 0.23044 0.43021 0.4505 0.65948 0.66153l14.193-14.193-0.75858-0.75858-0.22503 0.16476c-0.39607-0.3425-0.82118-0.6522-1.2712-0.92509l0.18228-0.55383-0.83476-0.83476z" fill="#fff" filter="url(#filter959)" opacity=".5"/>
+<path d="m13.341 9.2902c0 4.8852-3.1895 9.0247-7.5991 10.452l1.6777 1.6778c0.012695-0.0052 0.025533-0.0098 0.038093-0.01518l0.13675 0.18972 1.0637 1.0637c0.34893-0.16489 0.69057-0.34237 1.024-0.5331l-0.52289-1.5889c0.6338-0.38396 1.2323-0.82016 1.7898-1.3023l1.3493 0.98815c0.34557-0.31448 0.67597-0.64489 0.99033-0.99033l-0.98798-1.3492c0.48217-0.55762 0.91823-1.1561 1.3023-1.7898l1.589 0.52289c0.23101-0.4041 0.4438-0.81987 0.63656-1.2466l-1.3569-0.97807c0.28473-0.67524 0.51442-1.3795 0.68382-2.1067l1.6725 0.0064c0.09353-0.45372 0.16563-0.91548 0.21659-1.3831l-1.5929-0.51106c0.03035-0.36484 0.0467-0.73377 0.04671-1.1064 1e-6 -0.37274-0.01635-0.74165-0.04671-1.1065l1.5929-0.51063c-0.050918-0.46801-0.12304-0.92962-0.21671-1.3833l-1.6722 0.00625c-0.16943-0.72731-0.39912-1.4314-0.68384-2.1067l1.3569-0.9782c-0.10727-0.23715-0.22139-0.47078-0.34061-0.70094l-2.8657 2.8654c0.46409 1.2161 0.71888 2.5357 0.71884 3.9146z" fill="#fff" filter="url(#filter947)" opacity=".5"/>
+<path d="m17 29.801-13.801-13.801 13.801-13.801 13.801 13.801z" fill="none" filter="url(#filter934)" opacity=".47253"/>
+</g>
+</svg>

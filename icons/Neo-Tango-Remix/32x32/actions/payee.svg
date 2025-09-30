@@ -1,0 +1,29 @@
+<svg width="32" height="32" version="1" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<filter id="filter895" color-interpolation-filters="sRGB">
+<feFlood flood-color="rgb(0,0,0)" flood-opacity=".49804" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="0.5" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+</filter>
+<filter id="filter907" color-interpolation-filters="sRGB">
+<feFlood flood-color="rgb(0,0,0)" flood-opacity=".49804" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="0.5" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+</filter>
+</defs>
+<rect x="2" y="5" width="28" height="24" rx="2" ry="2" opacity=".2"/>
+<rect x="2" y="4" width="28" height="24" rx="2" ry="2" fill="#6650d2"/>
+<path d="m4 4c-1.108 0-2 0.892-2 2v1c0-1.108 0.892-2 2-2h24c1.108 0 2 0.892 2 2v-1c0-1.108-0.892-2-2-2h-24z" fill="#fff" opacity=".1"/>
+<g fill="#fff" fill-rule="evenodd" filter="url(#filter895)">
+<path d="m8.8027 16c-2.8305 1.6867-3.1838 3.9705-2.5096 5.3222 0.70024 1.4039 1.8859 1.6601 3.3002 1.6708l2.395 0.0069h0.02339l2.395-0.0069c1.4142-0.01079 2.5999-0.26702 3.3002-1.6708 0.67419-1.3516 0.32093-3.6354-2.5096-5.3222-0.67043 0.73778-1.941 1.1704-3.1972 1.1827-1.2563-0.01229-2.5268-0.44492-3.1972-1.1827z" color="#000000" stroke-width="1.1619"/>
+<circle cx="12" cy="13" r="3" stroke-width="1.4216"/>
+</g>
+<g fill="#fff" fill-rule="evenodd" filter="url(#filter907)">
+<path d="m19.868 14.333c-1.887 1.1245-2.1226 2.6471-1.6731 3.5482 0.46684 0.93596 1.2573 1.1068 2.2002 1.1139l1.5967 0.0046h0.01559l1.5967-0.0046c0.94282-0.0072 1.7333-0.17802 2.2002-1.1139 0.44947-0.90109 0.21396-2.4237-1.6731-3.5482-0.44696 0.49187-1.294 0.78029-2.1315 0.78849-0.83756-0.0082-1.6846-0.29662-2.1315-0.78849z" color="#000000" stroke-width=".77462"/>
+<circle cx="22" cy="12" r="2.0001" stroke-width=".94776"/>
+</g>
+</svg>

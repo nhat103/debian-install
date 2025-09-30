@@ -1,0 +1,15 @@
+#context-selectall,
+#context-print-selection,
+#context-take-screenshot,
+#context-viewpartialsource-selection,
+#context-inspect-a11y,
+#context-inspect,
+#context-sendlinktodevice,
+#context-sep-selectall,
+#context-media-eme-separator,
+#context-translate-selection,
+#context-pdfjs-highlight-selection,
+#frame-sep
+{
+	display: none !important;
+}

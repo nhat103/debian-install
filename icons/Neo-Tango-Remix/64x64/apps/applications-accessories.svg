@@ -1,0 +1,82 @@
+<svg width="64" height="64" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<filter id="filter916" color-interpolation-filters="sRGB">
+<feFlood flood-color="rgb(0,0,0)" flood-opacity=".2" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="1" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="fbSourceGraphic"/>
+<feColorMatrix in="fbSourceGraphic" result="fbSourceGraphicAlpha" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+<feFlood flood-color="rgb(255,255,255)" flood-opacity=".10196" in="fbSourceGraphic" result="flood"/>
+<feComposite in="flood" in2="fbSourceGraphic" operator="out" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="1" result="offset"/>
+<feComposite in="offset" in2="fbSourceGraphic" operator="atop" result="composite2"/>
+</filter>
+<filter id="filter928" color-interpolation-filters="sRGB">
+<feFlood flood-color="rgb(0,0,0)" flood-opacity=".2" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="1" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+</filter>
+<filter id="filter940" color-interpolation-filters="sRGB">
+<feFlood flood-color="rgb(0,0,0)" flood-opacity=".2" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="1" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="fbSourceGraphic"/>
+<feColorMatrix in="fbSourceGraphic" result="fbSourceGraphicAlpha" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+<feFlood flood-color="rgb(255,255,255)" flood-opacity=".10196" in="fbSourceGraphic" result="flood"/>
+<feComposite in="flood" in2="fbSourceGraphic" operator="out" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="1" result="offset"/>
+<feComposite in="offset" in2="fbSourceGraphic" operator="atop" result="composite2"/>
+</filter>
+<filter id="filter964" color-interpolation-filters="sRGB">
+<feFlood flood-color="rgb(0,0,0)" flood-opacity=".2" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="1" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="fbSourceGraphic"/>
+<feColorMatrix in="fbSourceGraphic" result="fbSourceGraphicAlpha" values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"/>
+<feFlood flood-color="rgb(255,255,255)" flood-opacity=".10196" in="fbSourceGraphic" result="flood"/>
+<feComposite in="flood" in2="fbSourceGraphic" operator="out" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="1" result="offset"/>
+<feComposite in="offset" in2="fbSourceGraphic" operator="atop" result="composite2"/>
+</filter>
+<filter id="filter976" color-interpolation-filters="sRGB">
+<feFlood flood-color="rgb(0,0,0)" flood-opacity=".2" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="1" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+</filter>
+<filter id="filter1000" color-interpolation-filters="sRGB">
+<feFlood flood-color="rgb(0,0,0)" flood-opacity=".2" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="1" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+</filter>
+<filter id="filter1012" color-interpolation-filters="sRGB">
+<feFlood flood-color="rgb(0,0,0)" flood-opacity=".2" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="1" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+</filter>
+</defs>
+<path d="m60 7.114-37.325 52.886h37.325zm-6 19.601v27.287l-19.296-0.0056z" fill="#e8cf33" filter="url(#filter916)" stroke-width="3.3934"/>
+<path d="m58.669 58.009v-49.862l-34.171 49.775z" fill="none" filter="url(#filter928)" opacity=".63874" stroke-width="3.4995"/>
+<path d="m37.583 4c0.23577 0.076019 0.46414 0.16053 0.69409 0.24137 0.7246 2.4381 4.084 4.9035 2.8065 7.3315-4.2557 7.0805-8.4809 14.255-12.705 21.391-0.82952 0.16301-1.6663 0.25183-2.5048 0.27152-1.7646 0.04458-3.5761-0.21584-5.251-0.8146 5.6184-9.4896 11.239-19 16.96-28.421z" fill="#dde1d9" filter="url(#filter940)" opacity=".75" stroke-width="3.5838"/>
+<polygon transform="matrix(-4.0498 0 0 4.0224 1229 -16.5)" points="298.25 11.96 296.96 12.3 297.6 13.385 298.87 14.719 299.27 13.673" fill="#df2a2a"/>
+<path d="m13.986 4c-0.23151 0.076019-0.4558 0.16053-0.68159 0.24137-0.71154 2.4381-4.0103 4.9035-2.756 7.3315 4.1792 7.0805 8.3282 14.255 12.476 21.391 0.81459 0.16301 1.6363 0.25183 2.4596 0.27152 1.7328 0.04458 3.5117-0.21584 5.1561-0.8146-5.5173-9.4896-11.037-19-16.654-28.421z" fill="#dde1d9" filter="url(#filter964)" stroke-width="3.5838"/>
+<ellipse cx="25.796" cy="28.845" rx="1.0709" ry="1.0903" color="#000000" fill="#b9b9b9" filter="url(#filter976)" stroke-width="3.5838"/>
+<g fill="#df2a2a">
+<path d="m18.716 35.806c3.6146 1.9162 3.9061 7.339 0.64582 12.112-3.2603 4.7765-8.8324 7.097-12.449 5.1894-3.6165-1.9162-3.9061-7.3359-0.64575-12.109 3.2588-4.7737 8.8324-7.0942 12.449-5.1922zm-2.0729 3.0431c-1.6051-0.84745-5.0367 0.59985-7.2252 3.8109-2.1933 3.2111-2.0369 6.5628-0.43325 7.4075 1.6036 0.85252 5.0379-0.59985 7.2271-3.8109 2.1948-3.2111 2.0369-6.5597 0.43176-7.4075z" filter="url(#filter1012)" stroke-width="3.5919"/>
+<path d="m32.83 35.806c-3.6146 1.9162-3.9061 7.339-0.64576 12.112 3.2603 4.7765 8.8324 7.097 12.449 5.1894 3.6165-1.9162 3.9061-7.3359 0.64575-12.109-3.2588-4.7737-8.8324-7.0942-12.449-5.1922zm2.0729 3.0431c1.6052-0.84745 5.0367 0.59985 7.2252 3.8109 2.1933 3.2111 2.0369 6.5628 0.43325 7.4075-1.6036 0.85252-5.038-0.59985-7.2271-3.8109-2.1948-3.2111-2.0369-6.5597-0.43176-7.4075z" filter="url(#filter1000)" stroke-width="3.5919"/>
+<polygon transform="matrix(4.0498 0 0 4.0224 -1177.7 -16.5)" points="298.87 14.719 299.27 13.673 298.25 11.96 296.96 12.3 297.6 13.385"/>
+</g>
+</svg>

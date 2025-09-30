@@ -1,0 +1,40 @@
+<svg width="32" height="32" version="1" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<filter id="filter918" color-interpolation-filters="sRGB">
+<feFlood flood-color="rgb(0,0,0)" flood-opacity=".2" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="1" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+</filter>
+<filter id="filter930" color-interpolation-filters="sRGB">
+<feFlood flood-color="rgb(0,0,0)" flood-opacity=".2" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="1" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+</filter>
+<filter id="filter942" color-interpolation-filters="sRGB">
+<feFlood flood-color="rgb(0,0,0)" flood-opacity=".2" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur"/>
+<feOffset dx="0" dy="1" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+</filter>
+</defs>
+<g fill-rule="evenodd">
+<rect x="2" y="3" width="28" height="27" rx="2.8564" ry="2.9564" fill="#c3c6c0" filter="url(#filter918)" stroke-width="1.7748"/>
+<rect x="5" y="6" width="22" height="20" rx="1.0028" ry="1.1706" fill="#5187d6" filter="url(#filter930)" stroke-width="1.9149"/>
+<path d="m7.8186 14.25h-2.8186v1.7906l4.5833-0.08113 0.92399-3.4594 2.1919 10.5 2.3439-7.4418 1.6512 3.5151 2.7931-3.0325 7.5126-0.08113v-1.7094h-8.0475l-1.9958 1.75-2.2285-5.2895-1.7267 5.2895-2.3057-8.75z" fill="#ecffd9" filter="url(#filter942)" stroke-width="1.7912"/>
+</g>
+<g fill="#e0e2df" fill-rule="evenodd">
+<circle cx="17" cy="28" r="1"/>
+<circle cx="21" cy="28" r="1"/>
+<circle cx="25" cy="28" r="1"/>
+</g>
+<g fill-opacity=".2" fill-rule="evenodd">
+<path d="m16.135 28.5a1 1 0 0 0-0.13477 0.5 1 1 0 0 0 1 1 1 1 0 0 0 1-1 1 1 0 0 0-0.13477-0.5 1 1 0 0 1-0.86523 0.5 1 1 0 0 1-0.86523-0.5z"/>
+<path d="m20.135 28.5a1 1 0 0 0-0.13477 0.5 1 1 0 0 0 1 1 1 1 0 0 0 1-1 1 1 0 0 0-0.13477-0.5 1 1 0 0 1-0.86523 0.5 1 1 0 0 1-0.86523-0.5z"/>
+<path d="m24.135 28.5a1 1 0 0 0-0.13477 0.5 1 1 0 0 0 1 1 1 1 0 0 0 1-1 1 1 0 0 0-0.13477-0.5 1 1 0 0 1-0.86523 0.5 1 1 0 0 1-0.86523-0.5z"/>
+</g>
+</svg>
