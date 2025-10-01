@@ -8,8 +8,22 @@
 #context-sep-selectall,
 #context-media-eme-separator,
 #context-translate-selection,
-#context-pdfjs-highlight-selection,
-#frame-sep
+#context-pdfjs-highlight-selection
 {
 	display: none !important;
 }
+#oxford-dict-dict_mozilla_org-menuitem-_four{
+  	order: 2 !important;
+}
+#cambigdelearner-dict_mozilla_org-menuitem-_two{
+	order: 3 !important;
+}
+
+
+#frame-sep{
+	order: 4 !important;
+}
+#context-searchselect{
+	order: 5 !important;
+}
+
