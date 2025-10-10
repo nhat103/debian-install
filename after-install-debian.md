@@ -13,8 +13,11 @@ autostart -> /.config
 icons -> ~/.icons
 clang-format -> ~/.clang-format
 face -> ~/.face
-vim ->/.vim
+vim ->/.vim 
 chrome -> ~/home/nhat/.mozilla/firefox/8tl1h129.default-esr/
+================================== create folder==============================
+# create tmp folder
+mkdir -p ~/.vim/tmp/{backup,swap,undo}
 ================================== TURN OFF SERVICE ===========================
 # purge package
 apt list --installed | grep geoclue
